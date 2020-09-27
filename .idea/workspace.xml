@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c848d11-05e1-434d-bb45-26f843b9b914" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="springboot_study" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/workanzhuang/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\workanzhuang\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hlo92TL4HvbTq3X6INcdWVZuAH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../security/springboot_springsecurity_jwt_redis" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.model.untils" />
+      <recent name="com.demo.model.controller" />
+      <recent name="com.demo.model.config" />
+      <recent name="com.demo.model.controller.exception" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\demo\springboot_study\springboot-security\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SecurityApplication01">
+    <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.model.untils.JwtUtil" />
+      <module name="springboot-security" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.model.untils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyCodeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.model.untils.VerifyCodeUtils" />
+      <module name="springboot-security" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.model.untils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot_demo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.boot.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.boot.demo.Demo01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.model.SecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityApplication01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-security" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.model.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.model.SecurityApplication01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JwtUtil" />
+      <item itemvalue="Application.VerifyCodeUtils" />
+      <item itemvalue="Spring Boot.SecurityApplication" />
+      <item itemvalue="Spring Boot.Demo01Application" />
+      <item itemvalue="Spring Boot.SecurityApplication01" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SecurityApplication01" />
+        <item itemvalue="Application.VerifyCodeUtils" />
+        <item itemvalue="Application.JwtUtil" />
+        <item itemvalue="Spring Boot.Demo01Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c848d11-05e1-434d-bb45-26f843b9b914" name="Default Changelist" comment="" />
+      <created>1600594884345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600594884345</updated>
+      <workItem from="1600594890018" duration="8119000" />
+      <workItem from="1600651028290" duration="14000" />
+      <workItem from="1600651062473" duration="219000" />
+      <workItem from="1600756576522" duration="17000" />
+      <workItem from="1600764817079" duration="8944000" />
+      <workItem from="1600821838534" duration="15828000" />
+      <workItem from="1600866477037" duration="7637000" />
+      <workItem from="1600874564151" duration="315000" />
+      <workItem from="1600908749154" duration="37109000" />
+      <workItem from="1600994770713" duration="24689000" />
+      <workItem from="1601046205094" duration="1845000" />
+      <workItem from="1601048171437" duration="5601000" />
+      <workItem from="1601085564919" duration="6364000" />
+      <workItem from="1601168208972" duration="1935000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1600916059502">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1600916059502" />
+    <state x="223" y="70" width="1155" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600869216183">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="70" width="1155" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600869216183" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1601023767640">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601023767640" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600920241021">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600920241021" />
+    <state x="779" y="352" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1600605546851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="779" y="352" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1600605546851" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1600848424861">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600848424861" />
+    <state width="1493" height="224" key="GridCell.Tab.0.bottom" timestamp="1601130026993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="224" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
+    <state width="1493" height="224" key="GridCell.Tab.0.center" timestamp="1601130026993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="224" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
+    <state width="1493" height="224" key="GridCell.Tab.0.left" timestamp="1601130026993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="224" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
+    <state width="1493" height="224" key="GridCell.Tab.0.right" timestamp="1601130026993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="224" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
+    <state width="1493" height="224" key="GridCell.Tab.1.bottom" timestamp="1601130026993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="224" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
+    <state width="1493" height="224" key="GridCell.Tab.1.center" timestamp="1601130026993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="224" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
+    <state width="1493" height="224" key="GridCell.Tab.1.left" timestamp="1601130026993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="224" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
+    <state width="1493" height="224" key="GridCell.Tab.1.right" timestamp="1601130026993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="224" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
+    <state width="1493" height="224" key="GridCell.Tab.2.bottom" timestamp="1601130026993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="224" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
+    <state width="1493" height="224" key="GridCell.Tab.2.center" timestamp="1601130026993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="224" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
+    <state width="1493" height="224" key="GridCell.Tab.2.left" timestamp="1601130026993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="224" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
+    <state width="1493" height="224" key="GridCell.Tab.2.right" timestamp="1601130026993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="224" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
+    <state x="299" y="70" key="Maven.ArtifactSearchDialog" timestamp="1601053951045">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="70" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1601053951045" />
+    <state x="349" y="77" key="Registry" timestamp="1600600903113">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="77" key="Registry/0.0.1536.824@0.0.1536.824" timestamp="1600600903113" />
+    <state x="272" y="57" key="SettingsEditor" timestamp="1600849306032">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600849306032" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1600931391722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1600931391722" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1601029773009">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1601029773009" />
+    <state x="540" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600871959898">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1600871959898" />
+    <state x="457" y="172" width="621" height="480" key="find.popup" timestamp="1601028937015">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="457" y="172" width="621" height="480" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1601028937015" />
+    <state x="178" y="116" key="new project wizard" timestamp="1600867759655">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="116" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1600867759655" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1600998399317">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1600998399317" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601027572970">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601027572970" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot_security/src/main/java/com/demo/model/controller/LoginController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot_security/src/main/java/com/demo/model/security/JwtAuthenticationFilter.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot_security/src/main/java/com/demo/model/security/JwtLoginFilter.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot_security/src/main/java/com/demo/model/security/JwtLoginFilter.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot_security/src/main/java/com/demo/model/untils/SecurityUtils.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot_security/src/main/java/com/demo/model/untils/JwtTokenUtils.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot_security/src/main/java/com/demo/model/untils/JwtTokenUtils.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot_security/src/main/java/com/demo/model/untils/JwtTokenUtils.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot_security/src/main/java/com/demo/model/untils/JwtTokenUtils.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot_security/src/main/java/com/demo/model/security/UserDetailsServiceImpl.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot_security/src/main/java/com/demo/model/security/JwtAuthenticationProvider.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot_security/src/main/java/com/demo/model/security/JwtAuthenticationProvider.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-security/src/main/java/com/demo/model/controller/exception/ControllerExceptionAdvice.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-security/src/main/java/com/demo/model/controller/LoginController.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-security/src/main/java/com/demo/model/service/TokenService.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/springboot_study$SecurityApplication01.ic" NAME="SecurityApplication01 Coverage Results" MODIFIED="1601047492326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.demo.model.controller.*</FILTER>
+    </SUITE>
+  </component>
+</project>
