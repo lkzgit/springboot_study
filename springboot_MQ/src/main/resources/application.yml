@@ -1,0 +1,15 @@
+server:
+  port: 9013
+spring:
+  activemq:
+    #broker-url: failover:(tcp://localhost:61616,tcp://localhost:61617) #集群配置
+    broker-url: tcp://129.211.164.41:61617
+    user: admin
+    password: admin
+    pool:
+      enable: true #使用连接池
+      max-connections: 100 #连接池数量
+
+    in-memory: false # true 表示内置的mq false表示连接服务器
+  #jms:
+    #pub-sub-domain: true #默认支持点对点 true 开启发布订阅模式

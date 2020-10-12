@@ -16,6 +16,10 @@
         <module>springboot_demo01</module>
         <module>springboot_security</module>
         <module>springboot-security</module>
+        <module>springboot_schedule</module>
+        <module>springboot_elasticsearch</module>
+        <module>springboot_MQ</module>
+        <module>springboot_RocketMQ</module>
     </modules>
 <!--    <properties>-->
 <!--        <java.version>1.8</java.version>-->
