@@ -14,12 +14,14 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>springboot_demo01</module>
-        <module>springboot_security</module>
         <module>springboot-security</module>
         <module>springboot_schedule</module>
         <module>springboot_elasticsearch</module>
         <module>springboot_MQ</module>
         <module>springboot_RocketMQ</module>
+        <module>springboot_webflux</module>
+        <module>springboot_plugin</module>
+        <module>springboot_qqLogin</module>
     </modules>
 <!--    <properties>-->
 <!--        <java.version>1.8</java.version>-->
