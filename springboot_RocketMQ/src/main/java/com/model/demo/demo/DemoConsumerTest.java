@@ -30,7 +30,7 @@ public class DemoConsumerTest {
          * Subscribe one more more topics to consume.
          */
         // <4> 订阅 TopicTest 主题
-        consumer.subscribe("TopicTest", "*");
+        consumer.subscribe("TopicTest", "Tag");
 
         /*
          *  Register callback to execute on arrival of messages fetched from brokers.
@@ -41,7 +41,7 @@ public class DemoConsumerTest {
             @Override
             public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> msgs,
                                                             ConsumeConcurrentlyContext context) {
-                System.out.printf("%s Receive New Messages: %s %n", Thread.currentThread().getName(), msgs);
+                System.out.printf("%s Receive New Messages: %s %n", Thread.currentThread().getName(), msgs.toString());
                 // 返回成功
                 return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;
             }
