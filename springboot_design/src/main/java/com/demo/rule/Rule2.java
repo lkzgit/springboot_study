@@ -4,6 +4,7 @@ import com.demo.annotation.EnableFilter;
 import com.demo.domian.Alarm;
 import com.demo.filter.Filter;
 import com.demo.filter.FilterChain;
+import org.springframework.core.annotation.Order;
 
 @EnableFilter
 public class Rule2 implements Filter {
