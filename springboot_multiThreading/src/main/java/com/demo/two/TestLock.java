@@ -33,24 +33,30 @@ class Ticket implements Runnable{
 	
 	private Lock lock = new ReentrantLock();
 
+
+
+
+
 	@Override
 	public void run() {
 		while(true){
 			
-			lock.lock(); //上锁
-			
-			try{
-				if(tick > 0){
-					try {
-						Thread.sleep(200);
-					} catch (InterruptedException e) {
+			//lock.lock(); //上锁
+			synchronized (this){
+				try{
+					if(tick > 0){
+						try {
+							Thread.sleep(200);
+						} catch (InterruptedException e) {
+						}
+
+						System.out.println(Thread.currentThread().getName() + " 完成售票，余票为：" + --tick);
 					}
-					
-					System.out.println(Thread.currentThread().getName() + " 完成售票，余票为：" + --tick);
+				}finally{
+					//lock.unlock(); //释放锁
 				}
-			}finally{
-				lock.unlock(); //释放锁
 			}
+
 		}
 	}
 	

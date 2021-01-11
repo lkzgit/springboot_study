@@ -18,8 +18,8 @@ public class TestProductorAndConsumerForLock {
 		new Thread(pro, "生产者 A").start();
 		new Thread(con, "消费者 B").start();
 
-//		 new Thread(pro, "生产者 C").start();
-//		 new Thread(con, "消费者 D").start();
+		 new Thread(pro, "生产者 C").start();
+		 new Thread(con, "消费者 D").start();
 	}
 
 }
@@ -35,7 +35,7 @@ class Clerk {
 		lock.lock();
 
 		try {
-			if (product >= 1) { // 为了避免虚假唤醒，应该总是使用在循环中。
+			while (product >= 1) { // 为了避免虚假唤醒，应该总是使用在循环中。
 				System.out.println("产品已满！");
 
 				try {
@@ -59,7 +59,7 @@ class Clerk {
 		lock.lock();
 
 		try {
-			if (product <= 0) {
+			while (product <= 0) {
 				System.out.println("缺货！");
 
 				try {
