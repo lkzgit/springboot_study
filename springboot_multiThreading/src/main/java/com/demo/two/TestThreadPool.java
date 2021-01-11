@@ -54,7 +54,7 @@ public class TestThreadPool {
 		pool.shutdown();
 		
 		for (Future<Integer> future : list) {
-			System.out.println("结果返回："+future.get());
+			System.out.println("结果返回__"+future.get());
 		}
 		
 		
