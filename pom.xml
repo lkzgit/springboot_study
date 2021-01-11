@@ -22,6 +22,12 @@
         <module>springboot_webflux</module>
         <module>springboot_plugin</module>
         <module>springboot_qqLogin</module>
+        <module>springboot_dubbo</module>
+        <module>springboot_shop</module>
+        <module>springboot_flowable</module>
+        <module>springboot_easyPoi</module>
+        <module>springboot_design</module>
+
     </modules>
 <!--    <properties>-->
 <!--        <java.version>1.8</java.version>-->

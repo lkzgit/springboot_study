@@ -116,6 +116,25 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+<!--  同意升级maven版本    1.mvn versions:set -DnewVersion=1.1       -->
+<!--           <plugin>-->
+<!--               <groupId>org.codehaus.mojo</groupId>-->
+<!--               <artifactId>versions-maven-plugin</artifactId>-->
+<!--               <version>2.3</version>-->
+<!--           </plugin>-->
+        <!--    检查静态代码        -->
+<!--            <plugin>-->
+<!--                <groupId>org.codehaus.mojo</groupId>-->
+<!--                <artifactId>findbugs-maven-plugin</artifactId>-->
+<!--                <version>3.0.0</version>-->
+<!--                <configuration>-->
+<!--                    <threshold>High</threshold>-->
+<!--                    <effort>Default</effort>-->
+<!--                    <findbugsXmlOutput>true</findbugsXmlOutput>-->
+<!--         &lt;!&ndash;  findbugs xml输出路径  &ndash;&gt;-->
+<!--                    <findbugsXmlOutputDirectory>target/site</findbugsXmlOutputDirectory>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
         </plugins>
     </build>
 
