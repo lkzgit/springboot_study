@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Netty通信</title>
+</head>
+<body>
+发送消息：<input type="text" id="msgContent"/>
+<input type="button" value="发送消息" onclick="CHAT.chat()" />
+<hr />
+接受消息：
+<div id="receiveMsg"></div>
+
+
+<script type="text/javascript">
+    window.CHAT = {
+        socket:null,
+        //初始化socket
+        init:function(){
+            //判断浏览器是否支持websocket
+            if(window.WebSocket){
+                //创建websocket对象
+                CHAT.socket = new WebSocket("ws://127.0.0.1:8088/chat");
+
+                CHAT.socket.onopen = function(){
+                    console.log("连接建立成功");
+                },
+                    CHAT.socket.close = function(){
+                        console.log("连接关闭");
+                    },
+                    CHAT.socket.onerror = function(){
+                        console.log("发生异常");
+                    },
+                    CHAT.socket.onmessage = function(e){
+                        console.log("接受消息："+e.data);
+                        var receiveMsg = document.getElementById("receiveMsg");
+                        var html = receiveMsg.innerHTML; //获取本对象原有的内容
+                        //嵌入新的内容
+                        receiveMsg.innerHTML = html + "<br/>" + e.data;
+                    }
+            }else{
+                console.log("浏览器不支持websocket协议");
+            }
+        },
+        //发送消息时触发的函数
+        chat:function(){
+            //获取消息框中所输入的内容
+            var msgContent = document.getElementById("msgContent").value;
+            //将客户端输入的消息进行发送
+            CHAT.socket.send(msgContent);
+        }
+    };
+
+    CHAT.init();
+
+</script>
+
+</body>
+</html>
