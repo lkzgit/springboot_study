@@ -27,7 +27,7 @@ public class TestChannel {
 
     @Test
     public void test1(){
-
+        System.out.println();
     }
 
 }
