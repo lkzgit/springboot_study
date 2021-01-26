@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.time.Duration;
 import java.time.Instant;
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ForkJoinTask;
 import java.util.concurrent.RecursiveTask;
@@ -14,16 +15,17 @@ import java.util.stream.LongStream;
 
 public class TestForkJoinPool {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ExecutionException, InterruptedException {
 		Instant start = Instant.now();
 		
 		ForkJoinPool pool = new ForkJoinPool();
 		
-		ForkJoinTask<Long> task = new ForkJoinSumCalculate(0L, 50000000000L);
+		ForkJoinTask<Long> task = new ForkJoinSumCalculate(0L, 500000000L);
 		
 		Long sum = pool.invoke(task);
-		
-		System.out.println(sum);
+		long l = pool.submit(task).get().longValue();
+
+		System.out.println(sum+"kk"+l);
 		
 		Instant end = Instant.now();
 		
@@ -36,7 +38,7 @@ public class TestForkJoinPool {
 		
 		long sum = 0L;
 		
-		for (long i = 0L; i <= 50000000000L; i++) {
+		for (long i = 0L; i <= 500000000L; i++) {
 			sum += i;
 		}
 		
@@ -52,7 +54,7 @@ public class TestForkJoinPool {
 	public void test2(){
 		Instant start = Instant.now();
 		
-		Long sum = LongStream.rangeClosed(0L, 50000000000L)
+		Long sum = LongStream.rangeClosed(0L, 500000000L)
 							 .parallel()
 							 .reduce(0L, Long::sum);
 		
@@ -75,7 +77,7 @@ class ForkJoinSumCalculate extends RecursiveTask<Long>{
 	private long start;
 	private long end;
 	
-	private static final long THURSHOLD = 10000L;  //临界值
+	private static final long THURSHOLD = 10000000L;  //临界值
 	
 	public ForkJoinSumCalculate(long start, long end) {
 		this.start = start;

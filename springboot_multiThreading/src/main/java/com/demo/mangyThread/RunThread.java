@@ -12,9 +12,9 @@ public class RunThread implements Runnable {
     }
 
 
-    public static void main(String[] args) {
-        RunThread th=new RunThread();
-        Thread thread = new Thread(th);
-        thread.start();
-    }
+//    public static void main(String[] args) {
+//        RunThread th=new RunThread();
+//        Thread thread = new Thread(th);
+//        thread.start();
+//    }
 }

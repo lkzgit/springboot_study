@@ -12,7 +12,7 @@ public class ExecutorThread {
         System.out.println("----程序开始运行-----");
         Date date1=new Date();
 
-        int taskSize=5;//设置线程池大小
+        int taskSize=6;//设置线程池大小
         /**
          * 创建固定数目线程的线程池。
          * public static ExecutorService newFixedThreadPool(int nThreads)
@@ -29,7 +29,8 @@ public class ExecutorThread {
          */
 
         //创建线程池
-        ExecutorService pool = Executors.newFixedThreadPool(taskSize);
+        //ExecutorService pool = Executors.newFixedThreadPool(taskSize);
+        ExecutorService pool = Executors.newCachedThreadPool();
         //创建多个有返回值的任务
         List<Future> list=new ArrayList<Future>();
         for(int i=0;i<taskSize;i++){
