@@ -8,7 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <description>分布式Rocket https://www.bilibili.com/video/BV1RE411r75d</description>
     <artifactId>springboot_shop</artifactId>
     <packaging>pom</packaging>
     <modules>

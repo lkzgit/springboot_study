@@ -31,6 +31,7 @@ public class ExecutorThread {
         //创建线程池
         //ExecutorService pool = Executors.newFixedThreadPool(taskSize);
         ExecutorService pool = Executors.newCachedThreadPool();
+       // new ThreadPoolExecutor() //阿里开发手册规定创建线程池
         //创建多个有返回值的任务
         List<Future> list=new ArrayList<Future>();
         for(int i=0;i<taskSize;i++){
