@@ -24,9 +24,9 @@
         <module>springboot_qqLogin</module>
         <module>springboot_dubbo</module>
         <module>springboot_shop</module>
-        <module>springboot_flowable</module>
         <module>springboot_easyPoi</module>
         <module>springboot_design</module>
+        <module>springboot_netty</module>
 
     </modules>
 <!--    <properties>-->
