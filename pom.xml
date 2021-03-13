@@ -26,6 +26,7 @@
         <module>springboot_easyPoi</module>
         <module>springboot_design</module>
         <module>springboot_netty</module>
+        <module>springboot-elasticsearch</module>
 
     </modules>
 <!--    <properties>-->
