@@ -42,6 +42,8 @@ public class TestScheduledThreadPool {
 		}
 		
 		pool.shutdown();
+
+		System.out.println("jjjjj");
 	}
 	
 }
