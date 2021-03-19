@@ -1,6 +1,9 @@
 package com.demo.one;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
+import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /*
@@ -21,10 +24,10 @@ public class TestCopyOnWriteArrayList {
 
 class HelloThread implements Runnable{
 	
-//	private static List<String> list = Collections.synchronizedList(new ArrayList<String>());
+	//private static List<String> list = Collections.synchronizedList(new ArrayList<String>());
 	
 	private static CopyOnWriteArrayList<String> list = new CopyOnWriteArrayList<>();
-	
+
 	static{
 		list.add("AA");
 		list.add("BB");
@@ -38,7 +41,6 @@ class HelloThread implements Runnable{
 		
 		while(it.hasNext()){
 			System.out.println(it.next());
-			
 			list.add("AA");
 		}
 		

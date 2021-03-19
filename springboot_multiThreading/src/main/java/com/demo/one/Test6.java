@@ -1,13 +1,15 @@
 package com.demo.one;
 
-import com.sun.org.apache.regexp.internal.RE;
+
+import org.junit.jupiter.api.Test;
+
 //懒汉
 public class Test6 {
 
-    private static Test6 test6;
+    private   static volatile Test6 test6 = null;
 
     private Test6(){
-
+        System.out.println("我是构造方法");
     }
     public static Test6 get(){
        if(test6==null){
@@ -16,11 +18,23 @@ public class Test6 {
                    test6=new Test6();
                }
            }
-
        }
         return test6;
     }
+    @Test
+    public void test7(){
+        for(int i=0;i<50;i++){
+            new Thread(()->{
+                System.out.println(Test6.get());
+            },String.valueOf(i)).start();
+        }
+    }
+
 }
+
+
+
+
 //饿汉
 class Test61{
     private final static Test61 te=new Test61();
@@ -51,25 +65,35 @@ class Singleton6{
 
 }
 //静态代码块饿汉式(适合复杂实例化)
-class Singleton3{
+//class Singleton3{
+//
+//    /**
+//     *  静态代码块
+//     */
+//    public static final Singleton3 INSTANCE;
+//    private String info;
+//
+//    static {
+//        try {
+//            INSTANCE = new Singleton3("123");
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//            throw new RuntimeException(e);
+//        }
+//    }
+//    private Singleton3(String info) {
+//        this.info = info;
+//    }
+//
+//
+//}
 
-    /**
-     *  静态代码块
-     */
-    public static final Singleton3 INSTANCE;
-    private String info;
+//枚举
+enum Singletion{
 
-    static {
-        try {
-            INSTANCE = new Singleton3("123");
-        } catch (Exception e) {
-            e.printStackTrace();
-            throw new RuntimeException(e);
-        }
+    INNUM;
+
+    public Singletion getInnum(){
+        return INNUM;
     }
-    private Singleton3(String info) {
-        this.info = info;
-    }
-
-
 }
