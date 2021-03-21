@@ -1,0 +1,2094 @@
+<changelist name="Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]" date="1616078939446" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2021/3/18 22:48 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_schedule/target/classes/com/demo/model/ScheduleApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ScheduleApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Server.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Server.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot-elasticsearch/target/classes/static/images/jdlogo.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/jdlogo.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestThread8Monitor.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestThread8Monitor.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestThread8Monitor.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestCompletableFuture.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestCompletableFuture.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestCompletableFuture.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ScheduleApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ScheduleApplication1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestCountDownLatch.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestCountDownLatch.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/demo/Demo01ProducerTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo01ProducerTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/OrderConsumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/OrderConsumer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_webflux/target/classes/com/model/demo/pojo/User.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/User.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/doc/JavaJUC/image-20200604170401451.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_MQ/target/classes/com/demo/model/jms/TopicSub.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TopicSub.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/instant_messaging/server/ServerChat.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerChat.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ExecutorThread$MyCallable.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ExecutorThread$MyCallable.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ReadWriteLockDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ReadWriteLockDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/ServerTwo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerTwo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/Productor1.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/Productor1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Productor1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestTask.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestTask.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/mangyThread/ThreadPool.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/mangyThread/ThreadPool.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ThreadPool.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/consumer/Demo03Consumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo03Consumer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/PayServiceImpl$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/PayServiceImpl$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestLock.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestLock.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestLock.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_shop/shop-pay-service/target/classes/com/itheima/shop/service/PayServiceImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/PayServiceImpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/mangyThread/MyThread.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/mangyThread/MyThread.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/MyThread.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/User.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/User1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ClientTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/consumer/Demo04Consumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo04Consumer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/FilterFactory.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/FilterFactory.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/HtmlFilter.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/HtmlFilter.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_design/target/classes/com/demo/filter/FilterChain.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/FilterChain.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/ServerThreadReaderTwo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerThreadReaderTwo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/DemoProducerTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/DemoProducerTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/DemoTestController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/DemoTestController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestCompletableFuture.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestCompletableFuture1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/ScheduledMessageConsumer$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ScheduledMessageConsumer$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/tx/consumer/TransactionConsumer$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TransactionConsumer$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/BatchConsumer$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/BatchConsumer$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ConsumerDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ConsumerDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ServerReaderThread1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerReaderThread1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_plugin/target/classes/com/model/demo/Demo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestReadWriteLock.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestReadWriteLock.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ServerThreadReaderTwo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerThreadReaderTwo1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/demo/Demo04ProducerTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo04ProducerTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo06ProducerTest$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo06ProducerTest$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_webflux/target/classes/com/model/demo/controller/TestController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/tx/producer/TransactionProducer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TransactionProducer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_demo01/target/classes/com/boot/demo/test/Test1main.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Test1main.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Filter2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Filter2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TradeMqProducerTempMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TradeMqProducerTempMapper.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/Nio/buffer/TestBuffer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestBuffer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/EnableFilter.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/EnableFilter.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TopicDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TopicDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_demo01/target/classes/com/boot/demo/test/Runnable.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Runnable.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestCompareAndSwap.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestCompareAndSwap.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/FilterProducer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/FilterProducer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestThreadPool.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestThreadPool.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestThreadPool.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_design/target/classes/com/demo/rule/Rule1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Rule1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ProduceService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ProduceService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/one/TestCompareAndSwap.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/one/TestCompareAndSwap.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestCompareAndSwap1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestReadWriteLock$2.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestReadWriteLock$2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestReadWriteLock$2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/demo/DemoConsumerTest$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/DemoConsumerTest$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/instant_messaging/client/ClientReader.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientReader.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestReadWriteLock$1.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestReadWriteLock$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestReadWriteLock$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/FilterConsumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/FilterConsumer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/tx/transaction/TransactionListenerImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TransactionListenerImpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo03ProducerTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo03ProducerTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_design/target/classes/com/demo/filter/Filter2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Filter21.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/ClientOne.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientOne.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/AsyncProducer$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/AsyncProducer$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Client.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Client.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/producer/Demo07Producer$TransactionListenerImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo07Producer$TransactionListenerImpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestReadWriteLock$2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestReadWriteLock$21.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ServerReader1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerReader1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/demo/DemoProducerTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/DemoProducerTest1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ProducerOrder$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ProducerOrder$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/OrderConsumer1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/OrderConsumer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_schedule/target/classes/com/demo/model/controller/TestAsync.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestAsync.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ClientTwo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientTwo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ThreadLocaDemo2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ThreadLocaDemo2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ExecutorThread.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ExecutorThread.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_MQ/target/classes/com/demo/model/controller/TestController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestController1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_demo01/target/classes/com/boot/demo/test/Res.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Res.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ClientOne.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientOne1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Test1main.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Test1main1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/RocketMQApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/RocketMQApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestForkJoinPool.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestForkJoinPool.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestForkJoinPool.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo06ProducerTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo06ProducerTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo07ProducerTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo07ProducerTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/mangyThread/CallThread.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/mangyThread/CallThread.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/CallThread.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo04ProducerTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo04ProducerTest1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ServerTwo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerTwo1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_webflux/target/classes/com/model/demo/controller/SSEController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/SSEController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot-elasticsearch/target/classes/com/demo/elasticsearch/pojo/Content.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Content.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/consumer/Demo06Consumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo06Consumer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_qqLogin/target/classes/com/model/demo/QQApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/QQApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ClientReader1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientReader1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/jdlogo.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/jdlogo1.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_design/target/classes/com/demo/factory/FilterFactory.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/FilterFactory1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/ConsumerOrder.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ConsumerOrder.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo03Producer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo03Producer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/one/TestVolatile.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/one/TestVolatile.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestVolatile.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestAtomicDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestAtomicDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/sguigu/BlockingNio.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/BlockingNio.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Constants.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Constants.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/DemoConsumerTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/DemoConsumerTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/netty/Test.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Test.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestABCAlternate$3.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestABCAlternate$3.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestReadWriteLock.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestReadWriteLock.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestReadWriteLock1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestThread8Monitor$1.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestThread8Monitor$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestThread8Monitor$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/User1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/User11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/bioChat/ClientReaderThread.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientReaderThread.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_design/target/classes/com/demo/filter/Filter.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Filter.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ElasticsearchTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ElasticsearchTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Rule1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Rule11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/CompareAndSwap.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/CompareAndSwap.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/demo/Demo05ProducerTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo05ProducerTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_design/target/classes/com/demo/rule/HtmlFilter.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/HtmlFilter1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestProductorAndConsumer.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestProductorAndConsumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestProductorAndConsumer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestABCAlternate$3.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestABCAlternate$3.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestABCAlternate$31.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot-elasticsearch/target/classes/com/demo/elasticsearch/domian/User.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/User2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Res$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Res$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/ServerThree.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerThree.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot-elasticsearch/target/classes/com/demo/elasticsearch/config/ElasticSearchConfig.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ElasticSearchConfig.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestProductorAndConsumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestProductorAndConsumer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/one/LatchDemo.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/one/LatchDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/LatchDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/HandlerSocketThreadPoolThree.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/HandlerSocketThreadPoolThree.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/producer/Demo01Producer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo01Producer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/sguigu/TestNonBlockingNIO.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestNonBlockingNIO.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/UserServiceImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/UserServiceImpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ServerFile.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerFile.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestProductorAndConsumerForLock.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestProductorAndConsumerForLock.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/BatchConsumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/BatchConsumer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/ConsumerOrder$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ConsumerOrder$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/doc/JavaJUC/image-20200605153815710.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/netty/chat/WebSocketServer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/WebSocketServer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/ConsumerDemo$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ConsumerDemo$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/one/ThreadDemo.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/one/ThreadDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ThreadDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot-elasticsearch/target/classes/com/demo/elasticsearch/service/ContentService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ContentService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/CancelMQListener.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/CancelMQListener.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ClientChat2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientChat2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ReaderClientRunnable.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ReaderClientRunnable.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/WebFluxApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/WebFluxApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/WebSocketServer$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/WebSocketServer$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/FilterProducer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/FilterProducer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/file/ServerReaderThread.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerReaderThread.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestCopyOnWriteArrayList.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestCopyOnWriteArrayList.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_shop/shop-pay-service/target/classes/com/itheima/shop/PayServiceApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/PayServiceApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_shop/shop-pay-service/target/classes/com/itheima/shop/mapper/TradeMqProducerTempMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TradeMqProducerTempMapper1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TransactionListenerImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TransactionListenerImpl1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ProduceServiceImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ProduceServiceImpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Test11.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Test11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Res.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Res1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/OrderWebApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/OrderWebApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/OrderControllre.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/OrderControllre.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/demo/Demo07ProducerTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo07ProducerTest1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/one/CompareAndSwap.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/one/CompareAndSwap.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/CompareAndSwap1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo03Consumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo03Consumer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/consumer/Demo05Consumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo05Consumer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo07Producer$TransactionListenerImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo07Producer$TransactionListenerImpl1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/FilterChain2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/FilterChain2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_shop/shop-pay-web/target/classes/com/itheima/shop/controller/PayController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/PayController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/demo/Demo03ProducerTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo03ProducerTest1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/test/Test1.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/test/Test1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Test1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/RestTemplateConfig.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/RestTemplateConfig.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/mangyThread/ExecutorThread$MyCallable.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/mangyThread/ExecutorThread$MyCallable.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ExecutorThread$MyCallable1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot-elasticsearch/target/classes/com/demo/elasticsearch/untils/HtmlParseUtil.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/HtmlParseUtil.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Test2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Test2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_schedule/target/classes/com/demo/model/controller/DemoController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/DemoController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot-elasticsearch/target/classes/com/demo/elasticsearch/ElasticSearchApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ElasticSearchApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/bioChat/ServerChat.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerChat1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_shop/shop-pay-web/target/classes/com/itheima/shop/PayWebApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/PayWebApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestNonBlockingNIO.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestNonBlockingNIO1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ThreadDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ThreadDemo1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/mangyThread/MyDeadLock.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/mangyThread/MyDeadLock.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/MyDeadLock.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/page/server/ServerChat.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerChat2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/Nio/chatNio/ClientOne.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientOne2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestScheduledThreadPool.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestScheduledThreadPool.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_shop/shop-order-web/target/classes/com/itheima/shop/config/RestTemplateConfig.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/RestTemplateConfig1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/demo/Demo01ProducerTest$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo01ProducerTest$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestBlockingNIO.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestBlockingNIO.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_webflux/target/test-classes/com/test/demo/WebTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/WebTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestThread8Monitor$2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestThread8Monitor$2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_shop/shop-pay-service/target/classes/com/itheima/shop/service/PayServiceImpl$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/PayServiceImpl$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/DemoConsumerTest$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/DemoConsumerTest$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/producer/Demo07Producer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo07Producer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_shop/shop-user-service/target/classes/com/itheima/shop/UserServiceApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/UserServiceApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/FileChannelTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/FileChannelTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TopicSub.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TopicSub1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/sguigu/TestChannel.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestChannel.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo01Producer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo01Producer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/OrderProducer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/OrderProducer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ClientFile.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientFile.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/MyThread.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/MyThread1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/OrderProducer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/OrderProducer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/page/until/Constants.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Constants1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TransactionProducer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TransactionProducer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ServerReader.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerReader.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/WebSocketServer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/WebSocketServer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/BlockingNio.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/BlockingNio1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ConsumerOrder.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ConsumerOrder1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Client$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Client$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestABCAlternate.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestABCAlternate.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestABCAlternate.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ConsumerOrder$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ConsumerOrder$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/bioChat/ClientChat.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientChat.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ForkJoinSumCalculate.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ForkJoinSumCalculate.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/SSEController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/SSEController1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestThread8Monitor$2.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestThread8Monitor$2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestThread8Monitor$21.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_design/target/classes/com/demo/filter/FilterChain2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/FilterChain21.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/DemoTopicMessage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/DemoTopicMessage.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/VolatileNoAtomic2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/VolatileNoAtomic2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/AsyncProducer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/AsyncProducer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ScheduledMessageConsumer$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ScheduledMessageConsumer$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Rule2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Rule2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/Nio/chatNio/Client$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Client$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/ReaderClientRunnable.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ReaderClientRunnable1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/Nio/channel/FileChannelTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/FileChannelTest1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/FilterConsumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/FilterConsumer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/ClientThree.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientThree.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo01AConsumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo01AConsumer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Filter.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Filter1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/AlternateDemo.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/AlternateDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/AlternateDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestThread8Monitor.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestThread8Monitor1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ServerThree.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerThree1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/FilterChain.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/FilterChain1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ElasticSearchApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ElasticSearchApplication1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/instant_messaging/until/Constants.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Constants2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/BatchProducer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/BatchProducer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/BatchProducer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/BatchProducer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/SingDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/SingDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo05ProducerTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo05ProducerTest1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/Consumer1.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/Consumer1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Consumer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ScheduledMessageProducer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ScheduledMessageProducer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/pojo/OrderStep.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/OrderStep.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/Consumer.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/Consumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Consumer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/consumer/Demo01AConsumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo01AConsumer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/MQApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/MQApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/instant_messaging/Test.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Test3.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/demo/Demo06ProducerTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo06ProducerTest1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/doc/JavaJUC/image-20200528090822776.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_shop/shop-pay-web/target/classes/com/itheima/shop/config/RestTemplateConfig.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/RestTemplateConfig2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo06Consumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo06Consumer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/one/TestCopyOnWriteArrayList.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/one/TestCopyOnWriteArrayList.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestCopyOnWriteArrayList1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/producer/Demo04Producer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo04Producer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ServerChat2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerChat21.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Consumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Consumer2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/AsyncProducer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/AsyncProducer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Alarm.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Alarm.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/one/TestCompareAndSwap$1.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/one/TestCompareAndSwap$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestCompareAndSwap$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/AsyncProducer$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/AsyncProducer$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/ScheduledMessageConsumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ScheduledMessageConsumer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Runnable.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Runnable1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo04Consumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo04Consumer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestABCAlternate$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestABCAlternate$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/BatchConsumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/BatchConsumer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestCallable.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestCallable.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/producer/Demo06Producer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo06Producer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_demo01/target/classes/com/boot/demo/test/ThreadLocaDemo2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ThreadLocaDemo21.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/PayServiceApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/PayServiceApplication1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_shop/shop-order-web/target/classes/com/itheima/shop/OrderWebApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/OrderWebApplication1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/demo/DemoConsumerTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/DemoConsumerTest1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/VolatileNoAtomic.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/VolatileNoAtomic.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_design/target/classes/com/demo/rule/FaceFilter.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/FaceFilter.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/file/ServerFile.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerFile1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_MQ/target/classes/com/demo/model/jms/OrderConsumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/OrderConsumer2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Test1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Test12.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/doc/JavaJUC/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTYwMTI3MTAxNDE4NDIx.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/tx/consumer/TransactionConsumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TransactionConsumer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo07Producer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo07Producer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestChannel.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestChannel1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/ServerOne.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerOne.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ServerOne.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerOne1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo06Producer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo06Producer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot-elasticsearch/target/test-classes/com/demo/ElasticsearchTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ElasticsearchTest1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Work.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Work.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestThread8Monitor$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestThread8Monitor$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestCompareAndSwap$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestCompareAndSwap$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/Nio/chatNio/Client.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Client1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestProductorAndConsumerForLock.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestProductorAndConsumerForLock.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestProductorAndConsumerForLock1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Consumer1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Consumer11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/DemoController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/DemoController1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/RestTemplateConfig1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/RestTemplateConfig11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestLock.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestLock1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/FilterConsumer$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/FilterConsumer$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ClientChat.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientChat1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/topic/TopicDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TopicDemo1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ClientChat1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientChat11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_qqLogin/target/classes/com/model/demo/controller/DemoTestController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/DemoTestController1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TradePayMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TradePayMapper.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ClientReaderThread.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientReaderThread1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestABCAlternate$1.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestABCAlternate$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestABCAlternate$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_design/target/classes/com/demo/domian/Alarm.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Alarm1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestScheduledThreadPool.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestScheduledThreadPool.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestScheduledThreadPool1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TransactionConsumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TransactionConsumer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/doc/JavaJUC/image-20200605095151322.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestBuff.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestBuff.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_shop/shop-order-web/target/classes/com/itheima/shop/controller/OrderControllre.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/OrderControllre1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/bioChat/ServerReaderThread.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerReaderThread2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/SyncProducer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/SyncProducer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/one/TestAtomicDemo.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/one/TestAtomicDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestAtomicDemo1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/producer/Demo05Producer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo05Producer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_design/target/classes/com/demo/rule/Rule3.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Rule3.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo05Consumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo05Consumer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TradeUserMoneyLogMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TradeUserMoneyLogMapper.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/WebTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/WebTest1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ClientThree.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientThree1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo01ProducerTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo01ProducerTest1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo05Producer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo05Producer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/file/ClientFile.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientFile1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Test.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Test4.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ServerOne1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerOne11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_MQ/target/classes/com/demo/model/MQApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/MQApplication1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Rule3.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Rule31.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestVolatile.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestVolatile1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_design/target/classes/com/demo/domian/Work.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Work1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestForkJoinPool.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestForkJoinPool1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_demo01/target/classes/com/boot/demo/test/Res$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Res$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/FilterConsumer$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/FilterConsumer$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestABCAlternate$2.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestABCAlternate$2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestABCAlternate$2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/HandlerSocketThreadPoolThree.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/HandlerSocketThreadPoolThree1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_demo01/target/classes/com/boot/demo/test/VolatileNoAtomic.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/VolatileNoAtomic1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_MQ/target/classes/com/demo/model/service/ProduceService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ProduceService1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/ProducerOrder.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ProducerOrder.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/sguigu/ClientTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientTest1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_shop/shop-user-service/target/classes/com/itheima/shop/service/UserServiceImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/UserServiceImpl1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo01Consumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo01Consumer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ServerChat.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerChat3.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_shop/shop-user-service/target/classes/com/itheima/shop/mapper/TradeUserMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TradeUserMapper.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ThreadVolatileDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ThreadVolatileDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/doc/JavaJUC.pdf" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_webflux/target/classes/com/model/demo/WebFluxApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/WebFluxApplication1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/test/SingDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/SingDemo1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_design/target/classes/com/demo/annotation/EnableFilter.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/EnableFilter1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/ClientTwo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientTwo1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ServerChat1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerChat11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ClientReader.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientReader2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_design/target/classes/com/demo/rule/Rule2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Rule21.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/CallThread.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/CallThread1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/sguigu/TestBuff.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestBuff1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/BatchConsumer$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/BatchConsumer$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/QQApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/QQApplication1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/message/DemoTopicMessage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/DemoTopicMessage1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo01ProducerTest$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo01ProducerTest$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/OrderConsumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/OrderConsumer3.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_design/target/test-classes/com/demo/Test.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Test5.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo04Producer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo04Producer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/LatchDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/LatchDemo1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ScheduledMessageConsumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ScheduledMessageConsumer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/Nio/chatNio/Server.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Server1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestBuffer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestBuffer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_webflux/target/classes/com/model/demo/service/UserService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/UserService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/UserService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/UserService1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/ReadWriteLockDemo.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/ReadWriteLockDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ReadWriteLockDemo1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ServerReaderThread.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerReaderThread3.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestABCAlternate.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestABCAlternate1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TransactionConsumer$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TransactionConsumer$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_design/target/classes/com/demo/Client.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Client2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_shop/shop-user-service/target/classes/com/itheima/shop/mq/CancelMQListener.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/CancelMQListener1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/one/TestCountDownLatch.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/one/TestCountDownLatch.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestCountDownLatch1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/ScheduledMessageProducer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ScheduledMessageProducer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/SyncProducer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/SyncProducer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/consumer/Demo07Consumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo07Consumer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_design/target/classes/com/demo/rule/SensitiveFilter.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/SensitiveFilter.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ChatHandler.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ChatHandler.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/page/client/ClientChat.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientChat3.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_demo01/target/classes/com/boot/demo/test/VolatileNoAtomic2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/VolatileNoAtomic21.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ThreadPool.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ThreadPool1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_demo01/target/classes/com/boot/demo/test/ThreadVolatileDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ThreadVolatileDemo1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/sguigu/TestBlockingNIO.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestBlockingNIO1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Client1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Client11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestThreadPool.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestThreadPool1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/OrderConsumer$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/OrderConsumer$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/netty/chat/ChatHandler.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ChatHandler1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestController2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot-elasticsearch/target/classes/com/demo/elasticsearch/controller/IndexController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/IndexController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/MyDeadLock.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/MyDeadLock1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/page/client/ClientReader.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientReader3.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ClientOne1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientOne11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ElasticSearchConfig.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ElasticSearchConfig1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestReadWriteLock$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestReadWriteLock$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/producer/Demo03Producer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo03Producer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/netty/chat/WebSocketServer$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/WebSocketServer$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_MQ/target/classes/com/demo/model/service/impl/ProduceServiceImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ProduceServiceImpl1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ConsumerDemo$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ConsumerDemo$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestController1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestController11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/OrderConsumer$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/OrderConsumer$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot-elasticsearch/target/classes/com/demo/elasticsearch/controller/ContentController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ContentController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_schedule/target/classes/com/demo/model/controller/TestTask.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestTask1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/SensitiveFilter.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/SensitiveFilter1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_shop/shop-user-service/target/classes/com/itheima/shop/mapper/TradeUserMoneyLogMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TradeUserMoneyLogMapper1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestABCAlternate$2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestABCAlternate$21.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/mangyThread/ExecutorThread.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/mangyThread/ExecutorThread.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ExecutorThread1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/ConsumerDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ConsumerDemo1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestCallable.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/TestCallable.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestCallable1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/PayController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/PayController1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/ForkJoinSumCalculate.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/ForkJoinSumCalculate.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ForkJoinSumCalculate1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Constants1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Constants11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Productor1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Productor11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/Nio/chatNio/ServerOne.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerOne2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TradeUserMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TradeUserMapper1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/ProducerOrder.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ProducerOrder1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="springboot_multiThreading/target/classes/com/demo/two/Productor.class" />
+    <option name="AFTER_PATH" value="springboot_multiThreading/target/classes/com/demo/two/Productor.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Productor.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/instant_messaging/client/ClientChat.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ClientChat4.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/OrderStep.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/OrderStep1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Demo07Consumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo07Consumer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/consumer/Demo01Consumer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo01Consumer1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/PayWebApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/PayWebApplication1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_shop/shop-pay-service/target/classes/com/itheima/shop/mapper/TradePayMapper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TradePayMapper1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/ProducerOrder$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ProducerOrder$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/FaceFilter.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/FaceFilter1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/TestAsync.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/TestAsync1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_RocketMQ/target/classes/com/model/demo/demo/Demo06ProducerTest$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Demo06ProducerTest$11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/instant_messaging/server/ServerReader.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerReader2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/PayServiceImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/PayServiceImpl1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/UserServiceApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/UserServiceApplication1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/Productor.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/Productor2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value=".idea/shelf/Uncommitted_changes_before_Update_at_2021_3_13_21_12_[Default_Changelist]/AlternateDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/AlternateDemo1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="springboot_netty/target/classes/com/demo/heima/BIO/page/server/ServerReader.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_18_22_48_[Default_Changelist]/ServerReader3.class" />
+  </binary>
+</changelist>

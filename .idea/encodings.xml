@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/springboot-elasticsearch/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_MQ/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_RocketMQ/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_demo01/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot_security/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_design/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_dubbo/dubbo_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_dubbo/dubbo_consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_dubbo/dubbo_producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_netty/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_qqLogin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_schedule/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_shop/shop-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_shop/shop-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_shop/shop-coupon-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_shop/shop-goods-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_shop/shop-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_shop/shop-order-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_shop/shop-pay-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_shop/shop-pay-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_shop/shop-pojo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_shop/shop-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_webflux/src/main/java" charset="UTF-8" />
   </component>
 </project>

@@ -1,11 +1,278 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c848d11-05e1-434d-bb45-26f843b9b914" name="Default Changelist" comment="" />
+    <list default="true" id="8c848d11-05e1-434d-bb45-26f843b9b914" name="Default Changelist" comment="elasticsearch 入门完成 模仿京东搜索">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/target/classes/com/demo/elasticsearch/ElasticSearchApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/target/classes/com/demo/elasticsearch/config/ElasticSearchConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/target/classes/com/demo/elasticsearch/controller/ContentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/target/classes/com/demo/elasticsearch/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/target/classes/com/demo/elasticsearch/domian/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/target/classes/com/demo/elasticsearch/pojo/Content.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/target/classes/com/demo/elasticsearch/service/ContentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/target/classes/com/demo/elasticsearch/untils/HtmlParseUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/target/classes/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/target/classes/static/images/jdlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/target/classes/static/js/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/target/classes/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/target/classes/static/js/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/target/test-classes/com/demo/ElasticsearchTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_MQ/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_MQ/target/classes/com/demo/model/MQApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_MQ/target/classes/com/demo/model/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_MQ/target/classes/com/demo/model/jms/OrderConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_MQ/target/classes/com/demo/model/jms/TopicSub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_MQ/target/classes/com/demo/model/service/ProduceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_MQ/target/classes/com/demo/model/service/impl/ProduceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/consumer/Demo01AConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/consumer/Demo01Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/consumer/Demo03Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/consumer/Demo04Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/consumer/Demo05Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/consumer/Demo06Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/consumer/Demo07Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/demo/Demo01ProducerTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/demo/Demo01ProducerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/demo/Demo03ProducerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/demo/Demo04ProducerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/demo/Demo05ProducerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/demo/Demo06ProducerTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/demo/Demo06ProducerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/demo/Demo07ProducerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/demo/DemoConsumerTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/demo/DemoConsumerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/demo/DemoProducerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/BatchConsumer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/BatchConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/ConsumerDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/ConsumerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/ConsumerOrder$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/ConsumerOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/FilterConsumer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/FilterConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/OrderConsumer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/OrderConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/ScheduledMessageConsumer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/consumer/ScheduledMessageConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/pojo/OrderStep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/AsyncProducer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/AsyncProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/BatchProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/FilterProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/OrderProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/ProducerOrder$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/ProducerOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/ScheduledMessageProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/producer/SyncProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/topic/TopicDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/tx/consumer/TransactionConsumer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/tx/consumer/TransactionConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/tx/producer/TransactionProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/heima/itcast/tx/transaction/TransactionListenerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/message/DemoTopicMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/producer/Demo01Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/producer/Demo03Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/producer/Demo04Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/producer/Demo05Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/producer/Demo06Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/producer/Demo07Producer$TransactionListenerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_RocketMQ/target/classes/com/model/demo/producer/Demo07Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_demo01/src/main/java/com/boot/guigu/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_demo01/src/main/java/com/boot/guigu/ThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_demo01/target/classes/com/boot/demo/test/Res$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_demo01/target/classes/com/boot/demo/test/Res.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_demo01/target/classes/com/boot/demo/test/Runnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_demo01/target/classes/com/boot/demo/test/Test1main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_demo01/target/classes/com/boot/demo/test/ThreadLocaDemo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_demo01/target/classes/com/boot/demo/test/ThreadVolatileDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_demo01/target/classes/com/boot/demo/test/VolatileNoAtomic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_demo01/target/classes/com/boot/demo/test/VolatileNoAtomic2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_demo01/target/classes/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_design/target/classes/com/demo/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_design/target/classes/com/demo/annotation/EnableFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_design/target/classes/com/demo/domian/Alarm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_design/target/classes/com/demo/domian/Work.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_design/target/classes/com/demo/factory/FilterFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_design/target/classes/com/demo/filter/Filter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_design/target/classes/com/demo/filter/Filter2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_design/target/classes/com/demo/filter/FilterChain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_design/target/classes/com/demo/filter/FilterChain2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_design/target/classes/com/demo/rule/FaceFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_design/target/classes/com/demo/rule/HtmlFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_design/target/classes/com/demo/rule/Rule1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_design/target/classes/com/demo/rule/Rule2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_design/target/classes/com/demo/rule/Rule3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_design/target/classes/com/demo/rule/SensitiveFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_design/target/test-classes/com/demo/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_multiThreading/springboot_multiThreading.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_multiThreading/src/main/java/com/demo/test/CountDownLatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_multiThreading/src/main/java/com/demo/test/CountryEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_multiThreading/src/main/java/com/demo/test/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_multiThreading/src/main/java/com/demo/test/MyCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_multiThreading/src/main/java/com/demo/test/MyResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_multiThreading/src/main/java/com/demo/test/SemaphoreDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_multiThreading/src/main/java/com/demo/test/ShareData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_multiThreading/src/main/java/com/demo/test/SummonTheDragonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/test/SingDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/chat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/ClientOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/ClientThree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/ClientTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/HandlerSocketThreadPoolThree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/ReaderClientRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/ServerOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/ServerThreadReaderTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/ServerThree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/ServerTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/bioChat/ClientChat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/bioChat/ClientReaderThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/bioChat/ServerChat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/bioChat/ServerReaderThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/file/ClientFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/file/ServerFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/file/ServerReaderThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/instant_messaging/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/instant_messaging/client/ClientChat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/instant_messaging/client/ClientReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/instant_messaging/server/ServerChat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/instant_messaging/server/ServerReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/instant_messaging/until/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/page/client/ClientChat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/page/client/ClientReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/page/server/ServerChat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/page/server/ServerReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/BIO/page/until/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/Nio/buffer/TestBuffer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/Nio/channel/FileChannelTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/Nio/chatNio/Client$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/Nio/chatNio/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/Nio/chatNio/ClientOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/Nio/chatNio/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/heima/Nio/chatNio/ServerOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/netty/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/netty/chat/ChatHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/netty/chat/WebSocketServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/netty/chat/WebSocketServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/sguigu/BlockingNio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/sguigu/ClientTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/sguigu/TestBlockingNIO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/sguigu/TestBuff.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/sguigu/TestChannel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_netty/target/classes/com/demo/sguigu/TestNonBlockingNIO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_plugin/target/classes/com/model/demo/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_qqLogin/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_qqLogin/target/classes/com/model/demo/QQApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_qqLogin/target/classes/com/model/demo/controller/DemoTestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_schedule/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_schedule/target/classes/com/demo/model/ScheduleApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_schedule/target/classes/com/demo/model/controller/DemoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_schedule/target/classes/com/demo/model/controller/TestAsync.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_schedule/target/classes/com/demo/model/controller/TestTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-order-web/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-order-web/target/classes/com/itheima/shop/OrderWebApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-order-web/target/classes/com/itheima/shop/config/RestTemplateConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-order-web/target/classes/com/itheima/shop/controller/OrderControllre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-pay-service/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-pay-service/target/classes/com/itheima/shop/PayServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-pay-service/target/classes/com/itheima/shop/mapper/TradeMqProducerTempMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-pay-service/target/classes/com/itheima/shop/mapper/TradePayMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-pay-service/target/classes/com/itheima/shop/service/PayServiceImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-pay-service/target/classes/com/itheima/shop/service/PayServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-pay-service/target/classes/mapper/TradeMqProducerTempMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-pay-service/target/classes/mapper/TradePayMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-pay-web/target/classes/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-pay-web/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-pay-web/target/classes/com/itheima/shop/PayWebApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-pay-web/target/classes/com/itheima/shop/config/RestTemplateConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-pay-web/target/classes/com/itheima/shop/controller/PayController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-user-service/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-user-service/target/classes/com/itheima/shop/UserServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-user-service/target/classes/com/itheima/shop/mapper/TradeUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-user-service/target/classes/com/itheima/shop/mapper/TradeUserMoneyLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-user-service/target/classes/com/itheima/shop/mq/CancelMQListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-user-service/target/classes/com/itheima/shop/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-user-service/target/classes/mapper/TradeUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_shop/shop-user-service/target/classes/mapper/TradeUserMoneyLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_webflux/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_webflux/target/classes/com/model/demo/WebFluxApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_webflux/target/classes/com/model/demo/controller/SSEController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_webflux/target/classes/com/model/demo/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_webflux/target/classes/com/model/demo/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_webflux/target/classes/com/model/demo/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_webflux/target/classes/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_webflux/target/test-classes/com/test/demo/WebTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/mangyThread/CallThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/mangyThread/CallThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/mangyThread/ExecutorThread$MyCallable.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/mangyThread/ExecutorThread$MyCallable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/mangyThread/ExecutorThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/mangyThread/ExecutorThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/mangyThread/MyDeadLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/mangyThread/MyDeadLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/mangyThread/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/mangyThread/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/mangyThread/ThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/mangyThread/ThreadPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/CompareAndSwap.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/CompareAndSwap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/HelloThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/HelloThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/LatchDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/LatchDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/TestAtomicDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/TestAtomicDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/TestCompareAndSwap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/TestCompareAndSwap$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/TestCompareAndSwap.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/TestCompareAndSwap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/TestCopyOnWriteArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/TestCopyOnWriteArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/TestCountDownLatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/TestCountDownLatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/TestVolatile.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/TestVolatile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/one/ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/test/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/test/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/AlternateDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/AlternateDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/Consumer1.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/Consumer1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/ForkJoinSumCalculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/ForkJoinSumCalculate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/Productor.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/Productor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/Productor1.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/Productor1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/ReadWriteLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/ReadWriteLockDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestABCAlternate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestABCAlternate$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestABCAlternate$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestABCAlternate$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestABCAlternate$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestABCAlternate$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestABCAlternate.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestABCAlternate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestCallable.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestCallable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestCompletableFuture.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestCompletableFuture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestForkJoinPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestForkJoinPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestProductorAndConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestProductorAndConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestProductorAndConsumerForLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestProductorAndConsumerForLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestReadWriteLock$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestReadWriteLock$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestReadWriteLock$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestReadWriteLock$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestReadWriteLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestReadWriteLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestScheduledThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestScheduledThreadPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestThread8Monitor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestThread8Monitor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestThread8Monitor$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestThread8Monitor$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestThread8Monitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestThread8Monitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multiThreading/target/classes/com/demo/two/TestThreadPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/doc/JavaJUC.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/doc/JavaJUC.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/doc/JavaJUC/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTYwMTI3MTAxNDE4NDIx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/doc/JavaJUC/image-20200528090822776.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/doc/JavaJUC/image-20200604170401451.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/doc/JavaJUC/image-20200605095151322.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multiThreading/target/classes/doc/JavaJUC/image-20200605153815710.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
@@ -32,27 +299,25 @@
       <list>
         <option value="HTML File" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/workanzhuang/maven/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\workanzhuang\maven\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="mavenHome" value="D:\workInstall\maven\maven\apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\workInstall\maven\maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1hlo92TL4HvbTq3X6INcdWVZuAH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -61,62 +326,166 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../security/springboot_springsecurity_jwt_redis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../源码包资料/zookeeper" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\springboot_study\springboot-elasticsearch\src\main\resources\static\js" />
+      <recent name="D:\workspace\springboot_study\springboot-elasticsearch\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\demo\springboot_study\springboot-security\src\main\resources\static" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.demo" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.demo.model.untils" />
       <recent name="com.demo.model.controller" />
       <recent name="com.demo.model.config" />
       <recent name="com.demo.model.controller.exception" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\demo\springboot_study\springboot-security\src\main\resources\static" />
-    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SecurityApplication01">
-    <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.model.untils.JwtUtil" />
-      <module name="springboot-security" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.model.untils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifyCodeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.model.untils.VerifyCodeUtils" />
-      <module name="springboot-security" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.model.untils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.CallableDemo">
+    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.boot.guigu.CallableDemo" />
       <module name="springboot_demo01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.boot.demo.*" />
+          <option name="PATTERN" value="com.boot.guigu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.CountDownLatchDemo" />
+      <module name="springboot_multiThreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdConsumer_TradtionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.ProdConsumer_TradtionDemo" />
+      <module name="springboot_multiThreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.SemaphoreDemo" />
+      <module name="springboot_multiThreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnifySixCountriesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.UnifySixCountriesDemo" />
+      <module name="springboot_multiThreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo_consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dubbo.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_demo01" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.boot.demo.Demo01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_elasticsearch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.model.ElasticsearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_MQ" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.model.MQApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo_producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dubbo.producer.ProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_qqLogin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.model.demo.QQApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RocketMQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_RocketMQ" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.model.demo.RocketMQApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScheduleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_schedule" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.model.ScheduleApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,32 +497,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecurityApplication01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="SecurityApplication01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-security" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.model.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.model.SecurityApplication01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebFluxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_webflux" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.model.demo.WebFluxApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.JwtUtil" />
-      <item itemvalue="Application.VerifyCodeUtils" />
+      <item itemvalue="Application.CountDownLatchDemo" />
+      <item itemvalue="Application.UnifySixCountriesDemo" />
+      <item itemvalue="Application.SemaphoreDemo" />
+      <item itemvalue="Application.ProdConsumer_TradtionDemo" />
+      <item itemvalue="Application.CallableDemo" />
       <item itemvalue="Spring Boot.SecurityApplication" />
+      <item itemvalue="Spring Boot.QQApplication" />
+      <item itemvalue="Spring Boot.RocketMQApplication" />
+      <item itemvalue="Spring Boot.MQApplication" />
+      <item itemvalue="Spring Boot.ElasticsearchApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.WebFluxApplication" />
+      <item itemvalue="Spring Boot.ProducerApplication" />
+      <item itemvalue="Spring Boot.ScheduleApplication" />
       <item itemvalue="Spring Boot.Demo01Application" />
       <item itemvalue="Spring Boot.SecurityApplication01" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SecurityApplication01" />
-        <item itemvalue="Application.VerifyCodeUtils" />
-        <item itemvalue="Application.JwtUtil" />
-        <item itemvalue="Spring Boot.Demo01Application" />
+        <item itemvalue="Application.CallableDemo" />
+        <item itemvalue="Application.ProdConsumer_TradtionDemo" />
+        <item itemvalue="Application.SemaphoreDemo" />
+        <item itemvalue="Application.UnifySixCountriesDemo" />
+        <item itemvalue="Application.CountDownLatchDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +551,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -193,125 +576,57 @@
       <workItem from="1601048171437" duration="5601000" />
       <workItem from="1601085564919" duration="6364000" />
       <workItem from="1601168208972" duration="1935000" />
+      <workItem from="1615562582448" duration="19849000" />
+      <workItem from="1615719533554" duration="800000" />
+      <workItem from="1615818370196" duration="1007000" />
+      <workItem from="1616070608775" duration="1461000" />
+      <workItem from="1616158041118" duration="732000" />
+      <workItem from="1616174302939" duration="23499000" />
     </task>
+    <task id="LOCAL-00001" summary="删除">
+      <created>1615562838666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615562838666</updated>
+    </task>
+    <task id="LOCAL-00002" summary="测试elasticsearch crud">
+      <created>1615630335695</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615630335695</updated>
+    </task>
+    <task id="LOCAL-00003" summary="elasticsearch 入门完成 模仿京东搜索">
+      <created>1615641398313</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615641398313</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="361" y="74" key="#Project_Structure" timestamp="1600916059502">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1600916059502" />
-    <state x="223" y="70" width="1155" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600869216183">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="223" y="70" width="1155" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600869216183" />
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1601023767640">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601023767640" />
-    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600920241021">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600920241021" />
-    <state x="779" y="352" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1600605546851">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="779" y="352" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1600605546851" />
-    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1600848424861">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600848424861" />
-    <state width="1493" height="224" key="GridCell.Tab.0.bottom" timestamp="1601130026993">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="224" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
-    <state width="1493" height="224" key="GridCell.Tab.0.center" timestamp="1601130026993">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="224" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
-    <state width="1493" height="224" key="GridCell.Tab.0.left" timestamp="1601130026993">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="224" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
-    <state width="1493" height="224" key="GridCell.Tab.0.right" timestamp="1601130026993">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="224" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
-    <state width="1493" height="224" key="GridCell.Tab.1.bottom" timestamp="1601130026993">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="224" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
-    <state width="1493" height="224" key="GridCell.Tab.1.center" timestamp="1601130026993">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="224" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
-    <state width="1493" height="224" key="GridCell.Tab.1.left" timestamp="1601130026993">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="224" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
-    <state width="1493" height="224" key="GridCell.Tab.1.right" timestamp="1601130026993">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="224" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
-    <state width="1493" height="224" key="GridCell.Tab.2.bottom" timestamp="1601130026993">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="224" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
-    <state width="1493" height="224" key="GridCell.Tab.2.center" timestamp="1601130026993">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="224" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
-    <state width="1493" height="224" key="GridCell.Tab.2.left" timestamp="1601130026993">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="224" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
-    <state width="1493" height="224" key="GridCell.Tab.2.right" timestamp="1601130026993">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="224" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1601130026993" />
-    <state x="299" y="70" key="Maven.ArtifactSearchDialog" timestamp="1601053951045">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="299" y="70" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1601053951045" />
-    <state x="349" y="77" key="Registry" timestamp="1600600903113">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="349" y="77" key="Registry/0.0.1536.824@0.0.1536.824" timestamp="1600600903113" />
-    <state x="272" y="57" key="SettingsEditor" timestamp="1600849306032">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600849306032" />
-    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1600931391722">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1600931391722" />
-    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1601029773009">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1601029773009" />
-    <state x="540" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600871959898">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="540" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1600871959898" />
-    <state x="457" y="172" width="621" height="480" key="find.popup" timestamp="1601028937015">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="457" y="172" width="621" height="480" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1601028937015" />
-    <state x="178" y="116" key="new project wizard" timestamp="1600867759655">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="178" y="116" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1600867759655" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1600998399317">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1600998399317" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601027572970">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601027572970" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除" />
+    <MESSAGE value="测试elasticsearch crud" />
+    <MESSAGE value="elasticsearch 入门完成 模仿京东搜索" />
+    <option name="LAST_COMMIT_MESSAGE" value="elasticsearch 入门完成 模仿京东搜索" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -390,6 +705,11 @@
           <url>file://$PROJECT_DIR$/springboot-security/src/main/java/com/demo/model/service/TokenService.java</url>
           <line>119</line>
           <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/demo/elasticsearch/test/ElasticSearchTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
