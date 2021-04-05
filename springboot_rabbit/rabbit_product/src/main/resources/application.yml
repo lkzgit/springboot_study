@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: 129.211.164.41
+    port: 5672
+    virtual-host: /lkz
+    username: user
+    password: 123456
+
+server:
+  port: 8888

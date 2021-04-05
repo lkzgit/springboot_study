@@ -27,6 +27,8 @@
         <module>springboot_design</module>
         <module>springboot_netty</module>
         <module>springboot-elasticsearch</module>
+        <module>springboot_mongodb</module>
+        <module>springboot_rabbit</module>
 
     </modules>
 <!--    <properties>-->

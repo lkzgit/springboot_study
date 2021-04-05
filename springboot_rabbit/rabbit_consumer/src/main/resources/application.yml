@@ -1,0 +1,11 @@
+#端口
+server:
+  port: 9999
+#Rabbitmq的配置
+spring:
+  rabbitmq:
+    host: 129.211.164.41
+    port: 5672
+    virtual-host: /lkz
+    username: user
+    password: password
