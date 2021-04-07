@@ -72,10 +72,10 @@
 
     />
     <!-- 消息回调处理类 -->
-    <bean id="confirmCallback" class="springboot.rabbitmq.fallback.MsgSendConfirmCallBack"/>
+    <bean id="confirmCallback" class="itheima.rabbit.consumer.demo.fallback.MsgSendConfirmCallBack"/>
 
     <!-- 消息失败回调类 -->
-    <bean id="sendReturnCallback" class="springboot.rabbitmq.fallback.MsgSendReturnCallback"/>
+    <bean id="sendReturnCallback" class="itheima.rabbit.consumer.demo.fallback.MsgSendReturnCallback"/>
 
     <!--定义rabbitTemplate对象操作可以在代码中方便发送消息-->
     <!-- confirm-callback="confirmCallback" 表示：消息失败回调 -->
