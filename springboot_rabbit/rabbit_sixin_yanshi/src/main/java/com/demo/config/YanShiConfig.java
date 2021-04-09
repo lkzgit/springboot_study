@@ -15,23 +15,24 @@ public class YanShiConfig {
 
 
 
-    @Value("${email.queue.name}")
+    @Value("${yanshi.email.queue.name}")
     private String emailQueue;
-    @Value("${exchange.name}")
+    @Value("${yanshi.exchange.name}")
     private String topicExchange;
-    @Value("${dead.letter.queue.name}")
+    @Value("${yanshi.dead.letter.queue.name}")
     private String deadLetterQueue;
-    @Value("${dead.letter.exchange.name}")
+    @Value("${yanshi.dead.letter.exchange.name}")
     private String deadLetterExchange;
-    @Value("${delay.queue.name}")
+    @Value("${yanshi.delay.queue.name}")
     private String delayQueue;
-    @Value("${delay.exchange.name}")
+    @Value("${yanshi.delay.exchange.name}")
     private String delayExchange;
 
     @Bean
     public Queue emailQueue() {
 
-        Map<String, Object> arguments = new HashMap<>(2);
+        Map<String, Object> arguments = new HashMap<>();
+        arguments.put("x-message-ttl", 1000*10);
         // 绑定死信交换机
         arguments.put("x-dead-letter-exchange", deadLetterExchange);
         // 绑定死信的路由key

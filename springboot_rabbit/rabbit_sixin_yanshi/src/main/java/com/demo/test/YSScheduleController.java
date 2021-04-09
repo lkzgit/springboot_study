@@ -14,6 +14,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
@@ -21,21 +24,21 @@ import java.util.concurrent.TimeUnit;
 /**
  * 延时队列
  */
-@Configuration
-@EnableScheduling
+@RequestMapping("yanshi")
+@Controller
 @Slf4j
 public class YSScheduleController {
 
     @Autowired
     RabbitTemplate rabbitTemplate;
 
-    @Value("${exchange.name}")
+    @Value("${yanshi.exchange.name}")
     private String topicExchange;
 
-    @Value("${delay.exchange.name}")
+    @Value("${yanshi.delay.exchange.name}")
     private String delayTopicExchange;
 
-    @Scheduled(cron = "0 0/1 * * * ?")
+   @GetMapping("/yanshiProducer")
     public void sendEmailMessage() {
 
         String msg = RandomStringUtils.randomAlphanumeric(8);
@@ -48,7 +51,7 @@ public class YSScheduleController {
     }
 
 
-    @Scheduled(cron = "0 0/1 * * * ?")
+    @GetMapping("/testyanshi")
     public void sendDelayOrderMessage() throws Exception{
 
         //订单号 id实际是保存订单后返回的，这里用uuid代替

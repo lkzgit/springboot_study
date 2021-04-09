@@ -56,7 +56,8 @@ public class YSMessageHandler {
     public void handleDeadLetterMessage(Message message, Channel channel,@Headers Map<String,Object> headers) throws IOException {
 
         //可以考虑数据库记录，每次进来查数量，达到一定的数量，进行预警，人工介入处理
-        log.info("接收到死信消息:---{}---消息ID---{}", new String(message.getBody()),headers.get("spring_returned_message_correlation"));
+        log.info("接收到死信消息:---{}---消息ID---{}",
+       new String(message.getBody()),headers.get("spring_returned_message_correlation"));
         //回复ack
         channel.basicAck(message.getMessageProperties().getDeliveryTag(),false);
     }

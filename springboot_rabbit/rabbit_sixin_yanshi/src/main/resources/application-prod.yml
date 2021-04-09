@@ -1,3 +1,4 @@
+
 spring:
   rabbitmq:
     host: 129.211.164.41
@@ -24,26 +25,29 @@ spring:
         # 签收模式为手动签收-那么需要在代码中手动ACK
         acknowledge-mode: manual
     virtual-host: lkz
-#邮件队列
-email:
-  queue:
-    name: demo.email
 
-#邮件交换器名称
-exchange:
-  name: demoTopicExchange
-
-#死信队列
-dead:
-  letter:
+yanshi:
+  email:     #邮件队列
     queue:
-      name: demo.dead.letter
-    exchange:
-      name: demoDeadLetterTopicExchange
+      name: demo.email
 
-#延时队列
-delay:
-  queue:
-    name: demo.delay
+  #邮件交换器名称
   exchange:
-    name: demoDelayTopicExchange
+    name: demoTopicExchange
+
+  #死信队列
+  dead:
+    letter:
+      queue:
+        name: demo.dead.letter
+      exchange:
+        name: demoDeadLetterTopicExchange
+
+  #延时队列
+  delay:
+    queue:
+      name: demo.delay
+    exchange:
+      name: demoDelayTopicExchange
+server:
+  port: 81
