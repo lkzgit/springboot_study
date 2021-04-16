@@ -16,11 +16,11 @@ public class Producer {
         //连接端口
         connectionFactory.setPort(5672);
         //虚拟主机名称：默认为 /
-        connectionFactory.setVirtualHost("/lkz");
+        connectionFactory.setVirtualHost("lkz");
         //连接用户名：默认为guest
         connectionFactory.setUsername("user");
         //连接密码： 默认为guest
-        connectionFactory.setPassword("password");
+        connectionFactory.setPassword("123456");
         //创建连接
         Connection connection = connectionFactory.newConnection();
         //创建频道
@@ -35,7 +35,7 @@ public class Producer {
          */
         channel.queueDeclare(QUEUE_NAME,true,false,false,null);
         //要发送的消息
-        String message = "hello，小兔子，我来了！";
+        String message = "hello，小兔子，我走了！";
         channel.basicPublish("",QUEUE_NAME,null,message.getBytes());
         System.out.println("已发送消息："+message);
         //释放资源

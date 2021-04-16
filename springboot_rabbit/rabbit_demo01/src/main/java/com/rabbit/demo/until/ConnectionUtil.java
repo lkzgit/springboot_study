@@ -12,11 +12,11 @@ public class ConnectionUtil {
         //连接端口;默认为 5672
         connectionFactory.setPort(5672);
         //虚拟主机名称;默认为 /
-        connectionFactory.setVirtualHost("/lkz");
+        connectionFactory.setVirtualHost("lkz");
         //连接用户名；默认为guest
         connectionFactory.setUsername("user");
         //连接密码；默认为guest
-        connectionFactory.setPassword("password");
+        connectionFactory.setPassword("123456");
 
         //创建连接
         return connectionFactory.newConnection();

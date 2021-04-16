@@ -1,4 +1,4 @@
-package itheima.rabbit.consumer.demo.fallback;
+package rabbit.demo.itheima.fallback;
 
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;

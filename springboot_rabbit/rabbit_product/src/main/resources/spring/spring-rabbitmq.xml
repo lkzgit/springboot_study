@@ -67,15 +67,15 @@
     <rabbit:connection-factory id="connectionFactory" host="129.211.164.41"
                                port="5672"
                                username="user"
-                               password="password"
-                               virtual-host="/lkz"
+                               password="123456"
+                               virtual-host="lkz"
 
     />
     <!-- 消息回调处理类 -->
-    <bean id="confirmCallback" class="itheima.rabbit.consumer.demo.fallback.MsgSendConfirmCallBack"/>
+    <bean id="confirmCallback" class="rabbit.demo.itheima.fallback.MsgSendConfirmCallBack"/>
 
     <!-- 消息失败回调类 -->
-    <bean id="sendReturnCallback" class="itheima.rabbit.consumer.demo.fallback.MsgSendReturnCallback"/>
+    <bean id="sendReturnCallback" class="rabbit.demo.itheima.fallback.MsgSendReturnCallback"/>
 
     <!--定义rabbitTemplate对象操作可以在代码中方便发送消息-->
     <!-- confirm-callback="confirmCallback" 表示：消息失败回调 -->

@@ -1,4 +1,4 @@
-package itheima.rabbit.consumer.demo.fallback;
+package rabbit.demo.itheima.fallback;
 /**
  * 消息的确认与回退
  */

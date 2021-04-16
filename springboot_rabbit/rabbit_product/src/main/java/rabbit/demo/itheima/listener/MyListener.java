@@ -1,4 +1,4 @@
-package itheima.rabbit.consumer.demo.listener;
+package rabbit.demo.itheima.listener;
 
 import org.springframework.stereotype.Component;
 

@@ -6,6 +6,6 @@ spring:
   rabbitmq:
     host: 129.211.164.41
     port: 5672
-    virtual-host: /lkz
+    virtual-host: lkz
     username: user
-    password: password
+    password: 123456

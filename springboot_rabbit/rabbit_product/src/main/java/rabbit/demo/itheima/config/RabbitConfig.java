@@ -1,4 +1,4 @@
-package itheima.rabbit.consumer.demo.config;
+package rabbit.demo.itheima.config;
 
 import org.springframework.amqp.core.*;
 import org.springframework.beans.factory.annotation.Qualifier;
