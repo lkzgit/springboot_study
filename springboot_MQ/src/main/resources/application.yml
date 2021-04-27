@@ -5,7 +5,7 @@ spring:
     #broker-url: failover:(tcp://localhost:61616,tcp://localhost:61617) #集群配置
     broker-url: tcp://129.211.164.41:61617
     user: admin
-    password: admin
+    password: 123456
     pool:
       enable: true #使用连接池
       max-connections: 100 #连接池数量

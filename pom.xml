@@ -29,6 +29,8 @@
         <module>springboot-elasticsearch</module>
         <module>springboot_mongodb</module>
         <module>springboot_rabbit</module>
+        <module>data-algorithm</module>
+        <module>springboot_aop</module>
 
     </modules>
 <!--    <properties>-->

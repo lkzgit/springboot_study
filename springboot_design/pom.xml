@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>springboot_design</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>springboot_observer</module>
+    </modules>
 
     <!-- 通过注解的方式加入责任链-->
     <dependencies>

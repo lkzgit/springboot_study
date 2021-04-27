@@ -1,5 +1,8 @@
 package com.demo.test;
 
+/**
+ * 可重入锁
+ */
 class Phone {
 
     public synchronized void sendSMS() throws Exception{

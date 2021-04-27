@@ -2,6 +2,9 @@ package com.boot.guigu;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 尚硅谷面试第二季
+ */
 public class DeadLockDemo {
 
     public static void main(String[] args) {
