@@ -2,6 +2,9 @@ package com.demo.shardingSphere.domain;
 
 import lombok.Data;
 
+/*
+
+ */
 @Data
 public class Course {
 
