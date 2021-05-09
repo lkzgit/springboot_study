@@ -25,4 +25,6 @@ springboot_qqLogin  第三方登录（待完善）
 
 springboot_schedule 定时任务
 
+springboot_shardingSphere  分库分表
+
 springboot_shop  利用RocketMQ分布式事务处理 
