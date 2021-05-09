@@ -29,6 +29,7 @@
         <module>springboot-elasticsearch</module>
         <module>springboot_mongodb</module>
         <module>springboot_rabbit</module>
+        <module>springboot_shardingSphere</module>
         <module>data-algorithm</module>
         <module>springboot_aop</module>
 
