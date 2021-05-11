@@ -1,0 +1,22 @@
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: test    #操作的库
+      username: root
+      password: root123456
+      authenticationDatabase: test #验证数据库
+      maxConnections: 100
+      minConnections: 20
+      maxQueue: 10
+      connect-timeout: 30000
+      max-wait-time: 30000
+      auto-connect-retry: true
+      socket-keep-alive: true
+      socket-timeout: 1500
+      #write-number: 1
+      #write-timeout: 1000
+      #write-fsync: true
+

@@ -36,7 +36,7 @@ public class DemomogoApplicationTests {
     @Test
     public void createUserRepository() {
         User user = new User();
-        user.setAge(20);
+        user.setAge(21);
         user.setName("张三");
         user.setEmail("3332200@qq.com");
         User user1 = userRepository.save(user);
