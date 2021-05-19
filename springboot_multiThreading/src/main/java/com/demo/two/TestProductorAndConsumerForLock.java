@@ -5,7 +5,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /*
- * 生产者消费者案例：
+ * 生产者消费者案例： Lock实现
  */
 public class TestProductorAndConsumerForLock {
 

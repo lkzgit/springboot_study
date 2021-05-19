@@ -26,23 +26,23 @@ public class TestThread8Monitor {
 			@Override
 			public void run() {
 				number.getOne();
-			} 
+			}
 		}).start();
-		
+//
 		new Thread(new Runnable() {
 			@Override
 			public void run() {
-//				number.getTwo();
+			//	number.getTwo();
 				number2.getTwo();
 			}
 		}).start();
 		
-		/*new Thread(new Runnable() {
-			@Override
-			public void run() {
-				number.getThree();
-			}
-		}).start();*/
+//		new Thread(new Runnable() {
+//			@Override
+//			public void run() {
+//				number.getThree();
+//			}
+//		}).start();
 		
 	}
 
@@ -53,13 +53,14 @@ class Number{
 	public static synchronized void getOne(){//Number.class
 		try {
 			Thread.sleep(3000);
+			System.out.println("----过了三秒-----");
 		} catch (InterruptedException e) {
 		}
-		
+
 		System.out.println("one");
 	}
 	
-	public synchronized void getTwo(){//this
+	public  synchronized void getTwo(){//this
 		System.out.println("two");
 	}
 	

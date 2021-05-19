@@ -13,48 +13,92 @@ import java.util.concurrent.TimeUnit;
  */
 public class TestVolatile {
 
+
+
 	public static void main(String[] args) {
-		// 资源类
-		MyDate myData = new MyDate();
 
-		// AAA线程 实现了Runnable接口的，lambda表达式
-		new Thread(() -> {
+		ThreadDemo td = new ThreadDemo();
+		new Thread(td).start();
 
-			System.out.println(Thread.currentThread().getName() + "\t come in");
-
-			// 线程睡眠3秒，假设在进行运算
-			try {
-				TimeUnit.SECONDS.sleep(3);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
+		while(true){
+			if(td.isFlag()){
+				System.out.println("------------------");
+				break;
 			}
-			// 修改number的值
-			myData.add();
+		}
 
-			// 输出修改后的值
-			System.out.println(Thread.currentThread().getName() + "\t update number value:" + myData.num);
+//		// 资源类
+//		MyDate myData = new MyDate();
+//
+//		// AAA线程 实现了Runnable接口的，lambda表达式
+//		new Thread(() -> {
+//
+//			System.out.println(Thread.currentThread().getName() + "\t come in");
+//
+//			// 线程睡眠3秒，假设在进行运算
+//			try {
+//				TimeUnit.SECONDS.sleep(3);
+//			} catch (InterruptedException e) {
+//				e.printStackTrace();
+//			}
+//			// 修改number的值
+//			myData.add();
+//
+//			// 输出修改后的值
+//			System.out.println(Thread.currentThread().getName() + "\t update number value:" + myData.num);
+//
+//		}, "AAA").start();
+//
+//		// main线程就一直在这里等待循环，直到number的值不等于零
+//		while(myData.num == 0) {
+//			System.out.println("kkkkkkkkkkkk");
+//		}
+//
+//		// 按道理这个值是不可能打印出来的，因为主线程运行的时候，number的值为0，所以一直在循环
+//		// 如果能输出这句话，说明AAA线程在睡眠3秒后，更新的number的值，重新写入到主内存，并被main线程感知到了
+//		System.out.println(Thread.currentThread().getName() + "\t mission is over");
 
-		}, "AAA").start();
-
-		// main线程就一直在这里等待循环，直到number的值不等于零
-		while(myData.num == 0) {}
-
-		// 按道理这个值是不可能打印出来的，因为主线程运行的时候，number的值为0，所以一直在循环
-		// 如果能输出这句话，说明AAA线程在睡眠3秒后，更新的number的值，重新写入到主内存，并被main线程感知到了
-		System.out.println(Thread.currentThread().getName() + "\t mission is over");
 
 	}
 
 
+
+
 }
 
-class MyDate{
 
-	 int num=0;
-	//volatile int num = 0;
-	public void add(){
-		this.num=60;
+class ThreadDemo implements Runnable {
+
+	private boolean flag = false;
+
+	@Override
+	public void run() {
+
+		try {
+			Thread.sleep(200);
+		} catch (InterruptedException e) {
+		}
+
+		flag = true;
+
+		System.out.println("flag=" + isFlag());
+
 	}
-
-
+	public boolean isFlag() {
+		return flag;
+	}
+	public void setFlag(boolean flag) {
+		this.flag = flag;
+	}
 }
+
+//class MyDate{
+//
+//	 int num=0;
+//	//volatile int num = 0;
+//	public void add(){
+//		this.num=60;
+//	}
+//
+//
+//}

@@ -1,7 +1,7 @@
 package com.demo.two;
 
 /*
- * 生产者和消费者案例 虚假唤醒
+ * 生产者和消费者案例 虚假唤醒  synchronized实现
  */
 public class TestProductorAndConsumer {
 

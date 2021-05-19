@@ -4,7 +4,7 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
-/*
+/* 尚硅谷juc
  * 一、创建执行线程的方式三：实现 Callable 接口。 相较于实现 Runnable 接口的方式，
  * 方法可以有返回值，并且可以抛出异常。
  * 
@@ -53,5 +53,5 @@ class ThreadDemo implements Callable<Integer>{
 	@Override
 	public void run() {
 	}
-	
+
 }*/
