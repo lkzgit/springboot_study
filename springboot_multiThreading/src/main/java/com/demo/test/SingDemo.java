@@ -7,7 +7,16 @@ public class SingDemo {
     private void SingDemo(){
 
     }
+    //静态内部类 懒汉式
+    private static class getSing{
 
+        static final SingDemo GETSing=new SingDemo();
+
+        public static SingDemo GETSi(){
+            return getSing.GETSi();
+        }
+    }
+    //双重判定锁
     public static SingDemo getSingDemo(){
             if(singDemo==null){
                 synchronized (SingDemo.class){
