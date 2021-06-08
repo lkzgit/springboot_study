@@ -42,7 +42,7 @@ class Ticket implements Runnable{
 		while(true){
 			
 			//lock.lock(); //上锁
-			synchronized (this){
+			//synchronized (this){
 				try{
 					if(tick > 0){
 						try {
@@ -50,12 +50,12 @@ class Ticket implements Runnable{
 						} catch (InterruptedException e) {
 						}
 
-						System.out.println(Thread.currentThread().getName() + " 完成售票，余票为：" + --tick);
+						System.out.println(Thread.currentThread().getName() + " 完成售票，余票为：" + tick--);
 					}
 				}finally{
 					//lock.unlock(); //释放锁
 				}
-			}
+			//}
 
 		}
 	}

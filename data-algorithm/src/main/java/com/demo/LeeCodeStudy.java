@@ -11,6 +11,89 @@ import java.util.Map;
  */
 public class LeeCodeStudy {
 
+
+    //楼梯有几种方法
+    @Test
+    public  void test1(){
+        // System.out.println(louti(5));
+        System.out.println(jumpByFor(5));
+    }
+    // 楼梯递归方法
+    public int louti(int num){
+        if(num<1){
+            throw new IllegalArgumentException(num+"参数不能小于1");
+        }
+        if(num ==1 || num ==2){
+            return num;
+        }
+        return louti(num-2)+(num-1);
+    }
+    //for循环方式
+    public long jumpByFor(int n){
+        int first = 1;
+        int second = 2;
+        int third = 0;
+        for(int i = 3; i <= n; i++) {
+            third = first + second;
+            first = second;
+            second = third;
+        }
+        return third;
+    }
+
+    // 鸡兔同笼
+    @Test
+    public void test2(){
+        jitu(35,94);
+    }
+    // 鸡有两只叫 兔子四只脚
+    public  void jitu(int head, int foot){
+        /**
+         * 鸡头+秃头=head
+         * 鸡+兔脚=foot
+         *
+         */
+//        int ji;int tu;
+//        if(foot%2==0){
+//            ji = head * 2 - foot/2;
+//            tu = head - ji;
+//            if(ji>0&&tu>0) {
+//                System.out.println("鸡的数量为：" +ji +"兔子的数量为：" + tu);
+//            }else {
+//                System.out.println("不存在");
+//            }
+//
+//        }
+        int ji;
+        for(int i=0;i<=head;i++){
+            ji=head-i;
+            if(2*i+ji*4==foot){
+                System.out.println(i+"--"+ji);
+            }
+        }
+
+    }
+
+
+    /**
+     * 排序 [1,3,5,6,4] 结果 [1,3,4,5,6]
+     */
+    @Test
+    public void orderBy(){
+        int[] num={1,3,6,5,4};
+
+    }
+
+    /**
+     * 寻找数组的中心下标
+     */
+    @Test
+    public void arrCentreIndex(){
+
+    }
+
+
+
     /**
      * 检测概数是不是2n次方
      */
@@ -146,6 +229,26 @@ public class LeeCodeStudy {
         }
     }
 
+    /**
+     * 删除排序数组中的重复项 要求在原数组中删除
+     * 例如:[1,2,2,3,3,4]
+     * 返回 删除后的数组长度
+     */
+    @Test
+    public void deleArryRepe(){
+        int[] arr={1,2,2,2,3,4};
+        if(arr==null){
+            System.out.println("-------");
+        }
+        int i=0;
+        for(int j=1;j<arr.length;j++){
+            if(arr[j]!=arr[i]){
+            i++;
+            arr[i]=arr[j];
+            }
+        }
+        System.out.println("kkkk:"+i);
+    }
 
 
 }

@@ -27,6 +27,7 @@ import java.util.concurrent.Future;
 public class TestThreadPool {
 	
 	public static void main(String[] args) throws Exception {
+
 		//1. 创建线程池
 		ExecutorService pool = Executors.newFixedThreadPool(5);
 		
@@ -56,8 +57,8 @@ public class TestThreadPool {
 		for (Future<Integer> future : list) {
 			System.out.println("结果返回__"+future.get());
 		}
-		
-		
+
+
 		
 		/*ThreadPoolDemo tpd = new ThreadPoolDemo();
 		
