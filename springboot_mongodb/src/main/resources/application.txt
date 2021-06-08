@@ -1,3 +1,6 @@
+
+#spring.data.mongodb.uri=mongodb://localhost:27017/test
+
 spring:
   data:
     mongodb:
@@ -18,4 +21,3 @@ spring:
       #write-number: 1
       #write-timeout: 1000
       #write-fsync: true
-

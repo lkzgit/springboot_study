@@ -1,6 +1,8 @@
 package com.demo.mangyThread;
 
+import java.util.HashMap;
 import java.util.concurrent.Callable;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.FutureTask;
 
 /**
@@ -16,6 +18,7 @@ public class CallThread implements Callable {
 
 
     public static <T> void main(String[] args) {
+
         Callable callThread = new CallThread();
         //由Callable<Integer>创建一个FutureTask<Integer>对象：
         FutureTask<T> oneTask = new FutureTask<T>(callThread);
