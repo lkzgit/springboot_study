@@ -32,6 +32,7 @@
         <module>springboot_shardingSphere</module>
         <module>data-algorithm</module>
         <module>springboot_aop</module>
+        <module>springboot_jwt</module>
 
     </modules>
 <!--    <properties>-->
