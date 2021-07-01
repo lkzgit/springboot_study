@@ -4,9 +4,9 @@ import java.util.List;
 
 public class ListNode {
 
-    private int val;
+    public int val;
 
-    private ListNode next;
+    public ListNode next;
 
     public int getVal() {
         return val;
