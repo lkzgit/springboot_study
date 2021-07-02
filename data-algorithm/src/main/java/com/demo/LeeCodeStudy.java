@@ -15,6 +15,31 @@ public class LeeCodeStudy {
     }
 
     /**
+     * 求三角形的最大周长
+     * 给定由一些正数（代表长度）组成的数组 A，返回由其中三个长度组成的、
+     * 面积不为零的三角形的最大周长。
+     * 如果不能形成任何面积不为零的三角形，返回 0。
+     *
+     */
+    @Test
+    public void trigonperimterTest(){
+        int[] arr={3,2,3,4};
+        System.out.println(this.trigonMethod(arr));
+    }
+    public int trigonMethod(int[] arr){
+        Arrays.sort(arr);
+        if(arr.length<3){
+            return 0;
+        }
+        for(int i=arr.length-1;i>=2;i--){
+            if(arr[i-1]+arr[i-2]>arr[i]){
+                return arr[i]+arr[i-1]+arr[i-2];
+            }
+        }
+        return 0;
+    }
+
+    /**
      * 柠檬水找零
      * 在柠檬水摊上，每一杯柠檬水的售价为 5 美元。
      * 顾客排队购买你的产品，（按账单 bills 支付的顺序）一次购买一杯。
