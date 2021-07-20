@@ -42,7 +42,7 @@ public class TestForkJoinPool {
 			sum += i;
 		}
 		
-		System.out.println(sum);
+		System.out.println("最后结果："+sum);
 		
 		Instant end = Instant.now();
 		
