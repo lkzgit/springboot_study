@@ -55,12 +55,12 @@ class Number{
 			Thread.sleep(3000);
 			System.out.println("----过了三秒-----");
 		} catch (InterruptedException e) {
-		}
+	}
 
 		System.out.println("one");
 	}
 	
-	public  synchronized void getTwo(){//this
+	public   synchronized void getTwo(){//this
 		System.out.println("two");
 	}
 	

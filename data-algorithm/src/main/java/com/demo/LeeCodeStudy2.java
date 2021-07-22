@@ -1,10 +1,27 @@
 package com.demo;
 
+import lombok.Data;
 import org.junit.Test;
 
 import java.util.*;
 
 public class LeeCodeStudy2 {
+
+    @Test
+    public void test(){
+        String s1 = "Programming";
+        String s2 = new String("Programming");
+        String s3 = "Program";
+        String s4 = "ming";
+        String s6 = s3 + s4;
+        String s5 = "Program" + "ming";
+        System.out.println(s1 == s2);
+        System.out.println(s1 == s5);
+        System.out.println(s1 == s6);
+        System.out.println(s1 == s6);
+        System.out.println(s5 == s6);
+        System.out.println(s2.intern() == s6.intern());
+    }
 
 
     /**
@@ -146,7 +163,5 @@ public class LeeCodeStudy2 {
         return res;
     }
 
-
-
-
 }
+
