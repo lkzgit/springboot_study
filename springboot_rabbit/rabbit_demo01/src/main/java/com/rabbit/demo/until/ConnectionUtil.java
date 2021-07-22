@@ -8,7 +8,7 @@ public class ConnectionUtil {
         //创建连接工厂
         ConnectionFactory connectionFactory = new ConnectionFactory();
         //主机地址;默认为 localhost
-        connectionFactory.setHost("129.211.164.41");
+        connectionFactory.setHost("139.196.37.168");
         //连接端口;默认为 5672
         connectionFactory.setPort(5672);
         //虚拟主机名称;默认为 /
