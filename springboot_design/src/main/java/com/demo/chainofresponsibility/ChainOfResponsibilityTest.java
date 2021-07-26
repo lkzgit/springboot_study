@@ -18,11 +18,11 @@ package com.demo.chainofresponsibility;
 public class ChainOfResponsibilityTest {
     public static void main(String[] args) {
 
-        Request request=new Request.RequestBuilder().frequentOk( false ).loggedOn( false ).build();
+        Request request=new Request.RequestBuilder().frequentOk( true ).loggedOn( false ).build();
 
 
         RequestFrequentHandler requestFrequentHandler=new RequestFrequentHandler( new LoggingHandler( null ) );
-
+            //每一步都会进行判断
         if (requestFrequentHandler.process( request )) {
 
             System.out.println(" 正常业务处理");
