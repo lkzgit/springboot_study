@@ -45,13 +45,13 @@ public class Producer {
 //         * 参数4：是否在不使用的时候自动删除队列
 //         * 参数5：队列其它参数
 //         */
-//        channel.queueDeclare(TOPIC_QUEUE_1, true, false, false, null);
-//        channel.queueDeclare(TOPIC_QUEUE_2, true, false, false, null);
+        channel.queueDeclare(TOPIC_QUEUE_1, true, false, false, null);
+        channel.queueDeclare(TOPIC_QUEUE_2, true, false, false, null);
 //        channel.queueDeclare(TOPIC_QUEUE_3, true, false, false, null);
-//
-//        //队列绑定交换机
-//        channel.queueBind(TOPIC_QUEUE_1, TOPIC_EXCHAGE, "item.insert");
-//        channel.queueBind(TOPIC_QUEUE_2, TOPIC_EXCHAGE, "item.update");
+
+        //队列绑定交换机
+        channel.queueBind(TOPIC_QUEUE_1, TOPIC_EXCHAGE, "item.insert");
+       // channel.queueBind(TOPIC_QUEUE_2, TOPIC_EXCHAGE, "item.update");
 //
 
 

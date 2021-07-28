@@ -26,11 +26,11 @@ public class Consumer1 {
          * 参数4：是否在不使用的时候自动删除队列
          * 参数5：队列其它参数
          */
-       // channel.queueDeclare(Producer.TOPIC_QUEUE_1, true, false, false, null);
+        channel.queueDeclare(Producer.TOPIC_QUEUE_1, true, false, false, null);
 
         //队列绑定交换机
-        //channel.queueBind(Producer.TOPIC_QUEUE_1, Producer.TOPIC_EXCHAGE, "item.*");
-       // channel.queueBind(Producer.TOPIC_QUEUE_1, Producer.TOPIC_EXCHAGE, "item.delete");
+        channel.queueBind(Producer.TOPIC_QUEUE_1, Producer.TOPIC_EXCHAGE, "item.*");
+        //channel.queueBind(Producer.TOPIC_QUEUE_1, Producer.TOPIC_EXCHAGE, "item.delete");
 
         //创建消费者；并设置消息处理
         DefaultConsumer consumer = new DefaultConsumer(channel){
@@ -49,7 +49,7 @@ public class Consumer1 {
                 //消息id
                 System.out.println("消息id为：" + envelope.getDeliveryTag());
                 //收到的消息
-                System.out.println("消费者1-接收到的消息为：" + new String(body, "utf-8"));
+                System.out.println("消费者1-接收到的消息为：" +new String(body,"utf-8"));
             }
         };
         //监听消息
