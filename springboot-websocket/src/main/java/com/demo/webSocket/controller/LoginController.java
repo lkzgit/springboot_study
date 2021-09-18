@@ -3,6 +3,7 @@ package com.demo.webSocket.controller;
 import cn.hutool.extra.qrcode.QrCodeUtil;
 import cn.hutool.extra.qrcode.QrConfig;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -20,6 +21,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @description
  */
 @Controller
+@CrossOrigin
 public class LoginController {
 
     private static final Map<String,String> loginThreadLocal = new ConcurrentHashMap<>();
@@ -48,18 +50,23 @@ public class LoginController {
             QrConfig qrConfig=new QrConfig();
             qrConfig.setHeight(200);
             qrConfig.setWidth(200);
-          //  String content="";
-            QrCodeUtil.generate("http://www.baidu.com", 200, 200, "jpg",response.getOutputStream());
+            String content="tcp://435964n4z1.zicp.vip:17694/toOk?uuId="+uuid;
+            QrCodeUtil.generate(content, 200, 200, "jpg",response.getOutputStream());
         } catch (Exception e) {
             e.printStackTrace();
         }
 
     }
+    @GetMapping("toOk")
+    public String toOk(@RequestParam(value = "uuId",required = false)String uuId){
+        System.out.println("toOk:"+uuId);
+        return "ok";
+    }
 
     @GetMapping("saoMiaoCaodeImg")
-    public String saoMiaoCaodeImg(@RequestParam("uuId")String uuId){
+    public String saoMiaoCaodeImg(@RequestParam(value = "uuId",required = false)String uuId){
         System.out.println("扫描成功之后:"+uuId);
-        return "ok";
+        return "success";
     }
     @GetMapping("getUUID")
     @ResponseBody
