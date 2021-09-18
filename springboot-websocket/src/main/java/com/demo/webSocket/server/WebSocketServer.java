@@ -51,12 +51,11 @@ public class WebSocketServer {
         }
 
         log.info("用户连接:"+userId+",当前在线人数为:" + getOnlineCount());
-
-        try {
-            sendMessage("连接成功");
-        } catch (IOException e) {
-            log.error("用户:"+userId+",网络异常!!!!!!");
-        }
+//        try {
+//            sendMessage("连接成功");
+//        } catch (IOException e) {
+//            log.error("用户:"+userId+",网络异常!!!!!!");
+//        }
     }
 
     /**
@@ -99,6 +98,7 @@ public class WebSocketServer {
                 e.printStackTrace();
             }
         }
+
     }
 
     /**
