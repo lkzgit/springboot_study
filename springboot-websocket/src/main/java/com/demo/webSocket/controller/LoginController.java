@@ -1,8 +1,10 @@
 package com.demo.webSocket.controller;
 
 import cn.hutool.extra.qrcode.QrCodeUtil;
+import cn.hutool.extra.qrcode.QrConfig;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
@@ -43,11 +45,21 @@ public class LoginController {
             response.setHeader("uuid", uuid);
             // 这里是开源工具类 hutool里的QrCodeUtil
             // 网址：http://hutool.mydoc.io/
-            QrCodeUtil.generate(uuid, 200, 200, "jpg",response.getOutputStream());
+            QrConfig qrConfig=new QrConfig();
+            qrConfig.setHeight(200);
+            qrConfig.setWidth(200);
+          //  String content="";
+            QrCodeUtil.generate("http://www.baidu.com", 200, 200, "jpg",response.getOutputStream());
         } catch (Exception e) {
             e.printStackTrace();
         }
 
+    }
+
+    @GetMapping("saoMiaoCaodeImg")
+    public String saoMiaoCaodeImg(@RequestParam("uuId")String uuId){
+        System.out.println("扫描成功之后:"+uuId);
+        return "ok";
     }
     @GetMapping("getUUID")
     @ResponseBody
