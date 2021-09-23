@@ -33,6 +33,9 @@
         <module>data-algorithm</module>
         <module>springboot_aop</module>
         <module>springboot_jwt</module>
+        <module>springboot-websocket</module>
+        <module>springboot_word</module>
+
 
     </modules>
 <!--    <properties>-->
