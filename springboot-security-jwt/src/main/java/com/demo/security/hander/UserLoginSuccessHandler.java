@@ -27,6 +27,8 @@ public class UserLoginSuccessHandler implements AuthenticationSuccessHandler {
      */
     @Override
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response, Authentication authentication) throws IOException {
+        String code = request.getParameter("code");
+
         // 获取登陆的用户信息
         User user = (User) authentication.getPrincipal();
         //生成令牌

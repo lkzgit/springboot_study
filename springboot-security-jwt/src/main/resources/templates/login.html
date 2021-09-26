@@ -36,8 +36,8 @@
        <p th:if="${param.logout}" class="bg-warning">已成功注销</p><!-- 1 -->
 			<p th:if="${param.error}" class="bg-danger">有错误，请重试</p> <!-- 2 -->
 			<h2>使用账号密码登录</h2>
-<!--			<form name="form" th:action="@{/login}" action="/login" method="POST"> &lt;!&ndash; 3 &ndash;&gt;-->
-			<form name="form"  action="/login/userLogin" method="POST"> <!-- 3 -->
+			<form name="form" th:action="@{/login}" action="/login" method="POST"> <!-- 3 -->
+
 				<div class="form-group">
 					<label for="username">账号</label>
 					<input type="text" class="form-control" name="username" value="" placeholder="账号" />

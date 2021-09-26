@@ -36,6 +36,7 @@
         <module>springboot-websocket</module>
         <module>springboot_word</module>
         <module>springboot-security-jwt</module>
+        <module>springboot_xxlJob</module>
 
 
     </modules>

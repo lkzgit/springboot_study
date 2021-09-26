@@ -201,13 +201,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
                 .formLogin()
                 //如果没有配置以下自定义页面，默认是用官方的页面
-                //.loginPage("/login/index")
-                .loginPage("/login")
+                .loginPage("/login/index")
+                //.loginPage("/login")
                 //设置自定义表单用户名和密码name参数,这个根据前端传给你什么字段进行设定
                 //.usernameParameter("username").passwordParameter("password")
                 //配置认证接口  可以换成自己的认证接口直接去掉就是用自己自定义的，我这里默认使用官方的就可以
-               // .loginProcessingUrl("/login")
-                .loginProcessingUrl("/login/userLogin")
+                .loginProcessingUrl("/login")
+               // .loginProcessingUrl("/login/userLogin")
                 // 配置登录成功自定义处理类
                 .successHandler(userLoginSuccessHandler)
                 // 配置登录失败自定义处理类
