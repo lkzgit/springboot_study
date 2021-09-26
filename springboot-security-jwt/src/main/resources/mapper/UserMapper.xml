@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.demo.security.mapper.UserMapper">
+
+    <resultMap id="findByUserNameResult" type="com.demo.security.domain.User">
+        <id column="user_id" property="userId"/>
+        <result column="account" property="account"/>
+        <result column="user_name" property="userName"/>
+        <result column="password" property="password"/>
+        <result column="phone" property="phone"/>
+        <result column="email" property="email"/>
+        <result column="state" property="state"/>
+        <collection property="roleList" ofType="com.demo.security.domain.Role">
+            <id column="role_id" property="roleId"/>
+            <result column="role_name" property="roleName"/>
+            <result column="role_title" property="roleTitle"/>
+            <result column="description" property="description"/>
+            <collection property="permissionList" ofType="com.demo.security.domain.Permission">
+                <id column="permission_id" property="permissionId"/>
+                <result column="permission_name" property="permissionName"/>
+                <result column="permission_value" property="permissionValue"/>
+                <result column="permission_type" property="permissionType"/>
+                <result column="permission_state" property="permissionState"/>
+                <result column="superior_id" property="superiorId"/>
+            </collection>
+        </collection>
+    </resultMap>
+
+    <select id="findByUserName" resultMap="findByUserNameResult" parameterType="java.lang.String">
+        SELECT u.*,s.*,p.* FROM `user` u
+        INNER JOIN user_role r
+        ON u.user_id=r.user_id
+        INNER JOIN role s
+        ON s.role_id=r.role_id
+        INNER JOIN role_permission rp
+        ON rp.role_id=s.role_id
+        INNER JOIN permission p
+        ON p.permission_id=rp.permission_id
+        <if test="userName!=null and userName!=''">
+            WHERE u.account=#{userName} OR u.email = #{userName} OR u.phone = #{userName}
+        </if>
+    </select>
+
+</mapper>
