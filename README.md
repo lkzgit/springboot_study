@@ -1,9 +1,13 @@
 # springboot_study
 springboot学习
 
-springboot-security springboot整合权限认证
+springboot-security 整合权限认证（自定义登录验证）
 
-springboot_MQ    整合RabbitMQ
+springboot-security-jwt 整合权限认证（默认使用官方登录模式）
+
+springboot_websocket    二维码生成
+
+springboot_MQ    整合ActiveMq
 
 springboot_rabbir   整合RabbitMQ
 
@@ -28,3 +32,8 @@ springboot_schedule 定时任务
 springboot_shardingSphere  分库分表
 
 springboot_shop  利用RocketMQ分布式事务处理 
+
+springboot_xxlJob  开源框架xxl_job定时任务
+
+springboot_redis  redis分布式缓存（待完善）
+

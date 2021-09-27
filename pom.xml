@@ -37,6 +37,7 @@
         <module>springboot_word</module>
         <module>springboot-security-jwt</module>
         <module>springboot_xxlJob</module>
+        <module>springboot_redis</module>
 
 
     </modules>
