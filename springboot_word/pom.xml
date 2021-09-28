@@ -70,6 +70,23 @@
             <artifactId>poi-scratchpad</artifactId>
             <version>3.17</version>
         </dependency>
+        <!--  easypoi -->
+        <dependency>
+            <groupId>cn.afterturn</groupId>
+            <artifactId>easypoi-base</artifactId>
+            <version>3.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.afterturn</groupId>
+            <artifactId>easypoi-web</artifactId>
+            <version>3.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.afterturn</groupId>
+            <artifactId>easypoi-annotation</artifactId>
+            <version>3.2.0</version>
+        </dependency>
+
         <!-- 引入swagger相关jar包 -->
         <dependency>
             <groupId>io.springfox</groupId>

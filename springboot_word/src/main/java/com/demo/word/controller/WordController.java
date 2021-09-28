@@ -1,17 +1,22 @@
 package com.demo.word.controller;
 
+import com.demo.word.utils.WordUtils;
 import org.apache.poi.POIXMLDocument;
 import org.apache.poi.hwpf.extractor.WordExtractor;
 import org.apache.poi.openxml4j.opc.OPCPackage;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 import org.springframework.util.FileCopyUtils;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.InputStream;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -23,6 +28,18 @@ import java.util.Map;
  */
 @RestController
 public class WordController {
+
+
+    @GetMapping("test")
+    public void test(HttpServletRequest request, HttpServletResponse response){
+        Map<String,Object> map=new HashMap<>();
+        map.put("date","2021-02-01");
+        map.put("title","北京");
+        map.put("param1","参数1");
+        map.put("endTime","2021-02-09");
+
+        WordUtils.exportWord("C://Users//24095//Desktop//test.docx","D:/test","test.docx",map,request,response);
+    }
 
 
     @PostMapping("uploadWord")
