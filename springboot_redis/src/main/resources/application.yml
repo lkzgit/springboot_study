@@ -17,3 +17,14 @@ spring:
   #连接池中的最小空闲连接默认0
         min-idle: 0
     password: 123456
+    cache:
+      type: redis
+      #cache-names: qq,
+    #缓存保存的时间 一个分钟  毫秒为单位 1000 为一秒  3600000 一小时
+      redis:
+        time-to-live: 60000
+    #如果指定了前缀就用我们指定的前缀，如果没有就默认使用缓存的名字作为前缀
+        key-prefix: cache
+        use-key-prefix: true
+    #是否缓存空值，防止缓存穿透
+        cache-null-values: true

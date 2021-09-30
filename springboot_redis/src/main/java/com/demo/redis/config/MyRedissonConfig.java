@@ -17,7 +17,6 @@ import java.io.IOException;
 /**
  * redisson 使用
  */
-
 @Configuration
 public class MyRedissonConfig {
 
