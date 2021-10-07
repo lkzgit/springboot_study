@@ -3,6 +3,7 @@ package com.demo.security.config;
 
 import com.demo.security.evaluator.UserPermissionEvaluator;
 import com.demo.security.filter.JWTAuthenticationTokenFilter;
+import com.demo.security.filter.VerificationCodeFilter;
 import com.demo.security.hander.*;
 import com.demo.security.service.impl.CustomUserServiceImpl;
 import com.demo.security.util.BcryptPasswordUtil;
@@ -17,6 +18,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 /**
  * @author lkz
@@ -231,6 +233,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
         // 禁用缓存
         http.headers().cacheControl();
+        //将过滤器添加在UsernamePasswordAuthenticationFilter之前
+        http.addFilterBefore(new VerificationCodeFilter(),UsernamePasswordAuthenticationFilter.class);
         // 添加JWT过滤器   用来解析token
         http.addFilter(new JWTAuthenticationTokenFilter(authenticationManager()));
     }

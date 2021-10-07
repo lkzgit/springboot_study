@@ -12,6 +12,7 @@ public enum ErrorCodeEnum {
     E0704("E0704", "响应失败!"),
     E0705("E0705", "未登录或者用户token无效或已过期!"),
     E0706("E0706", "无对应资源权限!"),
+    E0708("E0708", "验证码错误!"),
     ;
     private String key;
     private String value;

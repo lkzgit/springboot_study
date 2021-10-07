@@ -2,6 +2,7 @@ package com.demo.security.hander;
 
 
 import com.demo.security.enumeration.ErrorCodeEnum;
+import com.demo.security.exception.VerificationCodeException;
 import com.demo.security.util.ResponseUtil;
 import com.demo.security.vo.BaseVO;
 import lombok.extern.slf4j.Slf4j;
@@ -30,6 +31,12 @@ public class UserLoginFailureHandler implements AuthenticationFailureHandler {
     @Override
     public void onAuthenticationFailure(HttpServletRequest request, HttpServletResponse response, AuthenticationException exception) throws IOException {
         // 这些对于操作的处理类可以根据不同异常进行不同处理
+        if (exception instanceof VerificationCodeException) {
+            log.info("【登录失败】" + exception.getMessage());
+            //用户名不存在
+            ResponseUtil.ResponseMeg(response, new BaseVO(false, ErrorCodeEnum.E0708.getKey(), ErrorCodeEnum.E0708.getValue()));
+            return;
+        }
         if (exception instanceof UsernameNotFoundException) {
             log.info("【登录失败】" + exception.getMessage());
             //用户名不存在
