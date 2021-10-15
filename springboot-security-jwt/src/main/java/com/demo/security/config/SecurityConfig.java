@@ -31,6 +31,8 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
  * 开启权限注解,默认是关闭的 当@EnableGlobalMethodSecurity(prePostEnabled=true)的时候，@PreAuthorize可以使用
  * 这里主要@PreAuthorize, @PostAuthorize, @Secured这三个注解可以使用
  * 当@EnableGlobalMethodSecurity(securedEnabled=true)的时候，@Secured可以使用：
+ *
+ * @EnableOAuth2Sso 开启单点登录
  */
 @EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
