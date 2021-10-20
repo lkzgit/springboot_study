@@ -18,7 +18,7 @@ public class TestABCAlternate {
 			@Override
 			public void run() {
 				
-				for (int i = 1; i <= 20; i++) {
+				for (int i = 1; i <= 5; i++) {
 					ad.loopA(i);
 				}
 				
@@ -29,7 +29,7 @@ public class TestABCAlternate {
 			@Override
 			public void run() {
 				
-				for (int i = 1; i <= 20; i++) {
+				for (int i = 1; i <= 10; i++) {
 					ad.loopB(i);
 				}
 				
