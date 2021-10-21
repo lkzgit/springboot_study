@@ -2,18 +2,20 @@ package com.demo.webSocket.controller;
 
 import cn.hutool.extra.qrcode.QrCodeUtil;
 import cn.hutool.extra.qrcode.QrConfig;
+import com.demo.webSocket.server.WebSocketServer;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.HashMap;
+import java.io.IOException;
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @author lkz
@@ -50,7 +52,7 @@ public class LoginController {
             QrConfig qrConfig=new QrConfig();
             qrConfig.setHeight(200);
             qrConfig.setWidth(200);
-            String content="tcp://435964n4z1.zicp.vip:17694/toOk?uuId="+uuid;
+            String content="localhost:8011/toOk?uuId="+uuid;
             QrCodeUtil.generate(content, 200, 200, "jpg",response.getOutputStream());
         } catch (Exception e) {
             e.printStackTrace();
@@ -64,9 +66,12 @@ public class LoginController {
     }
 
     @GetMapping("saoMiaoCaodeImg")
-    public String saoMiaoCaodeImg(@RequestParam(value = "uuId",required = false)String uuId){
+    public ModelAndView saoMiaoCaodeImg(@RequestParam(value = "uuId",required = false)String uuId){
         System.out.println("扫描成功之后:"+uuId);
-        return "success";
+        ModelAndView modelAndView=new ModelAndView();
+        modelAndView.setViewName("success");
+        modelAndView.getModel().put("uuid",uuId);
+        return modelAndView;
     }
     @GetMapping("getUUID")
     @ResponseBody
@@ -75,6 +80,33 @@ public class LoginController {
         System.out.println("获取uuid:"+s);
         return s;
     }
+
+
+    @GetMapping("index")
+    public ResponseEntity<String> index(){
+        return ResponseEntity.ok("请求成功");
+    }
+
+    @GetMapping("page")
+    public ModelAndView page(){
+        return new ModelAndView("websocket");
+    }
+
+    @RequestMapping("/push/{toUserId}")
+    public ResponseEntity<String> pushToWeb(String message, @PathVariable String toUserId) throws IOException {
+        WebSocketServer.sendInfo(message,toUserId);
+        return ResponseEntity.ok("MSG SEND SUCCESS");
+    }
+
+    //动力节点
+    private AtomicInteger idProducer = new AtomicInteger();
+
+    @RequestMapping("/donglichat")
+    public String donglichat(Model model) {
+        model.addAttribute("username","user" + idProducer.getAndIncrement());
+        return "donglijiedian";
+    }
+
 
 
 }

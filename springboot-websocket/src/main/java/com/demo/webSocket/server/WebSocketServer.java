@@ -45,17 +45,17 @@ public class WebSocketServer {
         }else{
             webSocketMap.put(userId,this);
             //加入set中
-            addOnlineCount();
             //在线数加1
-            this.userId=userId;
+            addOnlineCount();
+
         }
 
         log.info("用户连接:"+userId+",当前在线人数为:" + getOnlineCount());
-//        try {
-//            sendMessage("连接成功");
-//        } catch (IOException e) {
-//            log.error("用户:"+userId+",网络异常!!!!!!");
-//        }
+        try {
+            sendMessage("连接成功");
+        } catch (IOException e) {
+            log.error("用户:"+userId+",网络异常!!!!!!");
+        }
     }
 
     /**
@@ -112,7 +112,7 @@ public class WebSocketServer {
         error.printStackTrace();
     }
     /**
-     * 实现服务器主动推送
+     * 实现服务器主动推送 发送消息
      */
     public void sendMessage(String message) throws IOException {
         this.session.getBasicRemote().sendText(message);

@@ -16,7 +16,6 @@
         xmlhttp.onload = function(){
             console.log(this);
             uuid = this.getResponseHeader("uuid");
-
             if (this.status == 200) {
                 var blob = this.response;
                 var img = document.createElement("img");
@@ -26,7 +25,7 @@
                 };
                 img.src = window.URL.createObjectURL(blob);
                 document.getElementById("codeImg").appendChild(img);
-
+                //获取二维码之后打开websocket
                 initWebSocket();
             }
         }
@@ -55,23 +54,13 @@
             //打开事件
             socket.onopen = function() {
                 console.log("websocket已打开");
-                //socket.send("这是来自客户端的消息" + location.href + new Date());
+               // socket.send("这是来自客户端的消息" + location.href + new Date());
             };
             //获得消息事件
             socket.onmessage = function(msg) {
                 debugger
-                console.log(msg)
-                console.log(msg.data);
-               var data= JSON.parse(msg.data);
-               if(data.code==200){
-                   alert("登录成功");
                    window.sessionStorage.uuid = uuid;
-                   window.sessionStorage.userId = data.userId;
-                   window.location.href = "templates/success.html"
-               }else{
-                   socket.close();
-                   getCodeImg();
-               }
+                   window.location.href = "http://localhost:8011/saoMiaoCaodeImg?uuId="+uuid;
                 //发现消息进入    开始处理前端触发逻辑
             };
             //关闭事件
