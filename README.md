@@ -5,7 +5,7 @@ springboot-security 整合权限认证（自定义登录验证）
 
 springboot-security-jwt 整合权限认证（默认使用官方登录模式）
 
-springboot_websocket    入门学习 页面生成二维码 单聊
+springboot_websocket    入门学习 页面生成二维码 单聊群聊
 
 springboot_MQ    整合ActiveMq
 

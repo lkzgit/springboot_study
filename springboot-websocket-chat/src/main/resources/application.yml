@@ -1,0 +1,8 @@
+server:
+  port: 8099
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+  mvc:
+    static-path-pattern: /static/**
