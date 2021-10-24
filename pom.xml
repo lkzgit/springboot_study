@@ -39,6 +39,7 @@
         <module>springboot_xxlJob</module>
         <module>springboot_redis</module>
         <module>springboot-websocket-chat</module>
+        <module>springboot_wesocket_chat</module>
 
 
     </modules>
