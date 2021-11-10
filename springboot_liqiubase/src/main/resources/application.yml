@@ -1,0 +1,73 @@
+server:
+  port: 8011
+
+spring:
+  jackson:
+    #    json日期时区设置
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  datasource:
+    url: jdbc:mysql://119.29.120.60:3306/test?useUnicode=true&useSSL=false&characterEncoding=utf-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8 #时区配置
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      # 初始化大小，最小，最大
+      initialSize: 1
+      min-idle: 5
+      maxActive: 20
+      # 配置获取连接等待超时的时间
+      maxWait: 60000
+      # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      timeBetweenEvictionRunsMillis: 60000
+      # 配置一个连接在池中最小生存的时间，单位是毫秒
+      minEvictableIdleTimeMillis: 30000
+      validationQuery: select 'x'
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      # 打开PSCache，并且指定每个连接上PSCache的大小
+      pool-prepared-statements: true
+      maxPoolPreparedStatementPerConnectionSize: 20
+      filter:
+        stat:
+          enabled: true
+          db-type: mysql
+          log-slow-sql: true
+          slow-sql-millis: 2000
+          merge-sql: true
+        wall:
+          enabled: true
+          db-type: mysql
+          config:
+            delete-allow: true
+            drop-table-allow: true
+            multi-statement-allow: true
+        slf4j:
+          enabled: true
+  liquibase:
+    change-log: classpath:/config/master.xml #加载文件位置
+    #contexts: dev #设置分支
+    enabled: true #是否重新运行脚本 一定设为false 不然重新启动原来的表数据就不存在
+
+# 配置mybatis-plus
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
+  typeAliasesPackage: com.demo.liqiubase.*
+  global-config:
+    db-config:
+      column-underline: false
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+    refresh: true
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    jdbc-type-for-null: 'null'
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    database-id: mysql
+  configuration-properties:
+    blobType: BLOB
+    boolValue: TRUE
+    prefix:

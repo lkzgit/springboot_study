@@ -5,7 +5,13 @@ springboot-security 整合权限认证（自定义登录验证）
 
 springboot-security-jwt 整合权限认证（默认使用官方登录模式）
 
-springboot_websocket    入门学习 页面生成二维码 单聊群聊
+springboot-websocket    入门学习 页面生成二维码 单聊群聊
+
+springboot-websocket-chat    传智博客聊天系统
+
+springboot_aop aop学习
+
+springboot_demo01 demo学习
 
 springboot_MQ    整合ActiveMq
 
@@ -36,5 +42,11 @@ springboot_shop  利用RocketMQ分布式事务处理
 springboot_xxlJob  开源框架xxl_job定时任务
 
 springboot_redis  redis分布式缓存 分布式锁
+
+springboot_liquibase 数据库建表
+
+springboot_websocket_chat 消息推送
+
+
 
 

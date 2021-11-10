@@ -100,7 +100,8 @@ public class RedisConfig  extends CachingConfigurerSupport{
                 RedisSerializationContext.SerializationPair.fromSerializer(redisSerializer)).serializeValuesWith(
                 RedisSerializationContext.SerializationPair.fromSerializer(jackson2JsonRedisSerializer));
         RedisCacheManager cacheManager = RedisCacheManager.builder(factory).cacheDefaults(
-                redisCacheConfiguration.entryTtl(Duration.ofMinutes(5))).build();
+                redisCacheConfiguration.entryTtl(Duration.ofMinutes(5)))// 设置过期时间为5分钟
+                .build();
         return cacheManager;
     }
 

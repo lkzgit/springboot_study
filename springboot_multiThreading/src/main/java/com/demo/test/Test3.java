@@ -3,6 +3,7 @@ package com.demo.test;
 import com.sun.org.apache.bcel.internal.generic.NEW;
 
 import java.util.concurrent.locks.LockSupport;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author lkz
@@ -13,8 +14,6 @@ public class Test3 {
 
     private static Thread t1=null,t2=null;
     public static void main(String[] args) {
-
-
         char [] a="123456".toCharArray();
         char [] b="zxcvbn".toCharArray();
         t1= new Thread(()->{

@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
+import sun.misc.BASE64Encoder;
 
 import javax.annotation.Resource;
 import javax.servlet.ServletOutputStream;
@@ -95,6 +96,25 @@ public class ExcleController {
         }
     }
 
+
+    @GetMapping("/getFileBase64")
+    public String getFileBase64() throws IOException {
+        byte[] bytes=null;
+        String base64String=null;
+        //InputStream inputStream=null;
+
+        File file=new File("http://36.152.29.162:50206/home/hlms/upload/718/report/202109/日度汇报2021-9-27_测试44(1).docx");
+        FileInputStream fileInputStream=new FileInputStream(file);
+        int size=fileInputStream.available();
+        bytes=new byte[size];
+        fileInputStream.read(bytes);
+        fileInputStream.close();
+
+        BASE64Encoder encoder=new BASE64Encoder();
+        base64String=encoder.encode(bytes);
+
+        return base64String;
+    }
 
 
     private List<User> initData(){

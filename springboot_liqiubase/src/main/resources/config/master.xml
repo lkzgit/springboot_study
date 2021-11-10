@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <!-- 如果不包含file server或者包含file server但是不需要数据库，不需要include classpath:/config/liquibase_files_server.xml -->
+    <!--<include file="classpath:/config/liquibase_files_server.xml" relativeToChangelogFile="false"/>-->
+    <!--relativeToChangelogFile如果为true，则表示file属性表示的文件路径是相对于根changelog  而不是CLASSPATH的，默认为false。-->
+
+<!--    &lt;!&ndash; 项目自身的sql脚本 &ndash;&gt;-->
+    <!-- V1.0.0 -->
+    <include file="config/liquibase/test_db_create_1.0.0.sql" relativeToChangelogFile="false"/>
+    <!-- V1.0.1 -->
+    <include file="config/liquibase/test_db_create_1.0.1.sql" relativeToChangelogFile="false"/>
+
+
+<!--    <changeSet id="2" author="Issac">-->
+<!--        <addColumn tableName="user">-->
+<!--            <column name="status" type="tinyint(1)" remarks="状态" defaultValue="0"/>-->
+<!--        </addColumn>-->
+<!--    </changeSet>-->
+
+
+
+
+
+</databaseChangeLog>

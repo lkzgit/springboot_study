@@ -40,6 +40,7 @@
         <module>springboot_redis</module>
         <module>springboot-websocket-chat</module>
         <module>springboot_wesocket_chat</module>
+        <module>springboot_liqiubase</module>
 
 
     </modules>

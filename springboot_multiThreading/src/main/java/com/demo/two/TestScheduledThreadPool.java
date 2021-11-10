@@ -27,7 +27,9 @@ public class TestScheduledThreadPool {
 		ScheduledExecutorService pool = Executors.newScheduledThreadPool(5);
 		    try{
 				for (int i = 0; i < 5; i++) {
-					Future<Integer> result = pool.schedule(new Callable<Integer>(){
+					//pool.scheduleAtFixedRate() //延迟最大值 稳定定时器
+					//pool.scheduleWithFixedDelay()// 任务+延迟 周期性 上次执行的时间 + 周期的时间+ 延迟的时间
+					Future<Integer> result = pool.schedule(new Callable<Integer>(){ // 执行之后就不在执行
 
 						@Override
 						public Integer call() throws Exception {
