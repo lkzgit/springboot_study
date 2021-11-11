@@ -41,6 +41,7 @@
         <module>springboot-websocket-chat</module>
         <module>springboot_wesocket_chat</module>
         <module>springboot_liqiubase</module>
+        <module>spring_rpc</module>
 
 
     </modules>
