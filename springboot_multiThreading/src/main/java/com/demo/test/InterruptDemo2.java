@@ -23,7 +23,7 @@ public class InterruptDemo2 {
                 {
                     System.out.println(isInterrupted());
                     Thread.sleep(5000);
-
+                    System.out.println("ceshishuj");
                     //如果线程被中断，退出死循环
                     if (isInterrupted())
                     {

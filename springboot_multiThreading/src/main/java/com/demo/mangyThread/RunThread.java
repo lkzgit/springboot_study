@@ -5,6 +5,7 @@ public class RunThread implements Runnable {
     public void run() {
         try {
             Thread.sleep(200);
+            System.out.println("线程执行-------");
         }catch (Exception e){
 
         }

@@ -19,11 +19,22 @@ import java.util.concurrent.*;
  * ExecutorService newSingleThreadExecutor() : 创建单个线程池。线程池中只有一个线程
  * 
  * ScheduledExecutorService newScheduledThreadPool() : 创建固定大小的线程，可以延迟或定时的执行任务。
+ * public ScheduledFuture<?> scheduleAtFixedRate(
+		 Runnable command, //异步任务 target 执行目标实例；
+		 long initialDelay, //首次执行延时；
+		 long period, //两次开始执行最小间隔时间；
+		 TimeUnit unit //所设置的时间的计时单位，如 TimeUnit.SECONDS 常量；
+	public ScheduledFuture<?> scheduleWithFixedDelay(
+		 Runnable command,//异步任务 target 执行目标实例；
+		 long initialDelay, //首次执行延时；
+		 long delay, //前一次执行结束到下一次执行开始的间隔时间（间隔执行延迟时间）；
+		 TimeUnit unit //所设置的时间的计时单位，如 TimeUnit.SECONDS 常量；
+		);
+ *
  */
 public class TestScheduledThreadPool {
 
 	public static void main(String[] args) throws Exception {
-
 		ScheduledExecutorService pool = Executors.newScheduledThreadPool(5);
 		    try{
 				for (int i = 0; i < 5; i++) {
@@ -47,7 +58,6 @@ public class TestScheduledThreadPool {
 		        }finally {
 				pool.shutdown();
 			}
-
 	}
 	
 }
