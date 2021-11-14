@@ -1,5 +1,10 @@
 package com.demo.mangyThread;
 
+import org.apache.tomcat.jni.Lock;
+
+import java.util.concurrent.locks.LockSupport;
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
  * 1.继承Thread类，重写run方法
  * 2.实现Runnable接口，重写run方法，实现Runnable接口的实现类的实例对象作为Thread构造函数的target
@@ -25,6 +30,8 @@ public class MyThread extends Thread{
         MyThread th2=new MyThread();
         th.start();
         th2.start();
+        ReentrantLock lock = new ReentrantLock();
+        lock.unlock();
     }
 
 }
