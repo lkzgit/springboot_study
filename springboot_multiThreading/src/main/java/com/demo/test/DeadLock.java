@@ -1,5 +1,7 @@
 package com.demo.test;
 
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
  * 一个简单的死锁类
  * 当DeadLock类的对象flag==1时（td1），先锁定o1,睡眠500毫秒

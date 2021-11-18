@@ -2,6 +2,7 @@ package com.demo.mangyThread;
 
 import org.apache.tomcat.jni.Lock;
 
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.LockSupport;
 import java.util.concurrent.locks.ReentrantLock;
 

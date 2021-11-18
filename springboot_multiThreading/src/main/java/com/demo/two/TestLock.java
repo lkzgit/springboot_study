@@ -1,5 +1,7 @@
 package com.demo.two;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -20,9 +22,15 @@ public class TestLock {
 	public static void main(String[] args) {
 		Ticket ticket = new Ticket();
 		
-		new Thread(ticket, "1号窗口").start();
-		new Thread(ticket, "2号窗口").start();
-		new Thread(ticket, "3号窗口").start();
+//		new Thread(ticket, "1号窗口").start();
+//		new Thread(ticket, "2号窗口").start();
+//		new Thread(ticket, "3号窗口").start();
+		//创建五个线程 等同于上面new Thread() 操作的同一个线程对象
+		ExecutorService pool = Executors.newFixedThreadPool(5);
+		for(int i=0;i<50;i++){ //模拟50个请求
+			pool.submit(ticket);
+		}
+
 	}
 
 }
