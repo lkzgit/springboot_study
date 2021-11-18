@@ -1,4 +1,4 @@
-package com.demo.test;
+package com.demo.nien;
 
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.Test;

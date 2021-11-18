@@ -1,4 +1,4 @@
-package com.demo.test;
+package com.demo.one;
 
 import com.demo.util.Print;
 

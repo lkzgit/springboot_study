@@ -1,9 +1,10 @@
-package com.demo.test;
+package com.demo.nien;
 
 import com.demo.util.Print;
 import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.locks.LockSupport;
+import java.util.concurrent.locks.ReentrantLock;
 
 import static com.demo.util.ThreadUtil.sleepSeconds;
 
@@ -38,6 +39,7 @@ public class LockSupportDemo {
     //LockSupport 测试用例
     @Test
     public void testLockSupport() throws InterruptedException {
+
         ChangeObjectThread t1 = new ChangeObjectThread("线程一");
         ChangeObjectThread t2 = new ChangeObjectThread("线程二");
         //启动线程一
