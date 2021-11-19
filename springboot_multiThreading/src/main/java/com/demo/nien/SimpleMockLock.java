@@ -8,7 +8,7 @@ import java.util.concurrent.locks.Lock;
 /**
  * @author lkz
  * @date 2021/11/18 19:35
- * @description
+ * @description 简单的独占锁
  */
 public class SimpleMockLock implements Lock
 {
