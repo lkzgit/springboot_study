@@ -4,7 +4,7 @@ server:
 
 # rocketmq 配置项，对应 RocketMQProperties 配置类
 rocketmq:
-  name-server: 129.211.164.41:9876 # RocketMQ Namesrv
+  name-server: 119.29.120.60:9876 # RocketMQ Namesrv
   # Producer 配置项
   producer:
     group: demo-producer-group # 生产者分组

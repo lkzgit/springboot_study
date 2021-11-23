@@ -20,7 +20,7 @@ public class DemoConsumerTest {
         // <1> 创建 DefaultMQPushConsumer 对象
         DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("please_rename_unique_group_name_4");
         // <2> 设置 RocketMQ Namesrv 地址
-        consumer.setNamesrvAddr("129.211.164.41:9876");
+        consumer.setNamesrvAddr("119.29.120.60:9876");
 
 
         // <3> 设置消费进度，从 Topic 最初位置开始

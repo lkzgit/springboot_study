@@ -25,7 +25,7 @@ public class TemplateMethodTest {
 
 
 abstract class AbstractClass{
-
+    // 模板方法 公共执行部分
     public void operation(){
         // open
         System.out.println(" pre ... ");
@@ -39,6 +39,7 @@ abstract class AbstractClass{
 
 
     }
+    //钩子函数
     abstract protected  void  templateMethod();
 
 }

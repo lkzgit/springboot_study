@@ -16,7 +16,7 @@ public class DemoProducerTest {
         //创建生产者
         DefaultMQProducer producer = new DefaultMQProducer("test-group");
         //服务地址
-        producer.setNamesrvAddr("129.211.164.41:9876");
+        producer.setNamesrvAddr("119.29.120.60:9876");
         //实例化
         producer.start();
         for(int i=0;i<10;i++){
