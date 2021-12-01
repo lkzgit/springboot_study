@@ -2,3 +2,6 @@ server:
   port: 8080
   servlet:
     context-path: /demo
+
+# 配置是否开启AOP参数加密解密，不配置默认为true
+isSecret: true
