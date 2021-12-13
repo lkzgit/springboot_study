@@ -1,0 +1,18 @@
+server:
+  port: 1113
+spring:
+  redis:
+    database: 0
+    host: 119.29.120.60
+    password: 123456
+    port: 6379
+
+
+
+center:
+  http: localhost:9999
+  returnPublicKey: /returnPublicKey
+  generateToken: /generateToken
+
+service:
+  appId: consumer

@@ -25,6 +25,8 @@ springboot_dubbo  整合dubbo
 
 springboot_easyPoi  阿里poi（待完善）
 
+springboot_encryption 数据加密
+
 springboot_elasticsearch  搜索
 
 springboot_multiThreading  多线程入门
