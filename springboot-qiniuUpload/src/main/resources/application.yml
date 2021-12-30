@@ -1,0 +1,9 @@
+server:
+  port: 8082
+
+oss:
+  qiniu:
+    domain: http://r4vs1sf66.hn-bkt.clouddn.com
+    accessKey: R6RcopiKELx8W6VQhkgFnGP9OeMw8SjP88DLXa01
+    secretKey: -_tlskU49Sc0ZN6V7vdzhFcccJnPOo4QNWzsyB7B
+    bucketName: test-mogu
