@@ -13,6 +13,9 @@ import java.util.List;
  * 优点：
  *          1.符合开闭原则
  *          2.可以在运行时建立对象之间的关系
+ *     方式；
+ *     推；每次都会把通知以广播的形式发送给所有观察者，所以观察者只能被动接受
+ *     拉；观察者只要直到有情况即可，至于什么时候获取内容，获取什么内容都可以自主决定。
  * JDK&Spring源码中的应用
  *          JDK:
  *          2 java.util.Observable
@@ -37,7 +40,7 @@ public class ObserverTest {
 
     }
 }
-
+// 目标对象
 class Subject{
     // 容器
     private List<Observer> container =new ArrayList<>(  );
@@ -60,7 +63,7 @@ class Subject{
 
 
 
-
+//观察者
 interface Observer{
     void update(Object object);
 }

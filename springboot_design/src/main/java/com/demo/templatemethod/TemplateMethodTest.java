@@ -12,8 +12,11 @@ package com.demo.templatemethod;
  *      1.你可以让客户端只覆盖大型算法的某些部分，从而减少算法其他部分 发生的更改对它们的影响。
  *      2.你可以将重复的代码拖放到超类中。
  * Servlet Api & Spring 中的应用
- *          12 javax.servlet.http.HttpServlet
+ *          12 javax.servlet.http.HttpServlet doGet/doPost调用
  *          3 org.springframework.web.servlet.mvc.AbstractController
+ *          Junit 单元测试
+ *          Hibernate模板程序
+ *          Spring JDBCTemplate hibernateTemplate
  *
  */
 public class TemplateMethodTest {

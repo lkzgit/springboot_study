@@ -8,7 +8,7 @@ import java.util.Map;
  * 模式定义: 运用共享技术有效地支持大量细粒度的对象
  * 优点： 如果系统有大量类似的对象，可以节省大量的内存及CPU资源
  */
-public class FlyweithtTest {
+public class   FlyweithtTest {
     public static void main(String[] args) {
         TreeType treeTypeByName=TreeFactory.getTreeTypeByName( "xxx", "yyyyy" );
         TreeNode treeNode1=new TreeNode( 0,0, treeTypeByName );
@@ -18,7 +18,7 @@ public class FlyweithtTest {
 
     }
 }
-
+// UnsharedConcreteFlyWeight共享享元类
 class TreeNode{
 
     private int x;
@@ -31,6 +31,7 @@ class TreeNode{
         this.treeType=treeType;
     }
 }
+// 表示一个享元类
 class TreeType{
     private final String name;
     private final String data;
