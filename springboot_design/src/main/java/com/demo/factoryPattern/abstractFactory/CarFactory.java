@@ -7,8 +7,8 @@ package com.demo.factoryPattern.abstractFactory;
  * @Description TODO
  * @createTime 2022年02月15日 23:54:00
  */
-public interface CarFactory {
-    Engine createEngine();
+public interface CarFactory { //抽象工厂
+    Engine createEngine(); //抽象的产品
     Seat createSeat();
     Tyre createTyre();
 }

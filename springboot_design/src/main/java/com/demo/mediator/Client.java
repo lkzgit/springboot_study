@@ -15,7 +15,6 @@ public class Client {
         Mediator m=new President();
         Development de=new Development(m);
         Finacial f=new Finacial(m);
-
         de.outAction();
         de.selfAction();
     }

@@ -4,7 +4,7 @@ package com.demo.factoryPattern.abstractFactory;
  * @author lkz
  * @version 1.0.0
  * @ClassName Engine.java
- * @Description TODO
+ * @Description TODO 表示产品
  * @createTime 2022年02月15日 23:46:00
  */
 public interface Engine {

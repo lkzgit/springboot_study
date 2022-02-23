@@ -11,7 +11,7 @@ package com.demo.factoryPattern.abstractFactory;
  *      虽然某种程度不符合设计原则 但实际使用最多
  *      工厂方法模式
  *      不修改已有类的前提下，通过增加新的工厂类实现扩展
- *      抽象工厂模式
+ *      抽象工厂模式 要有产品族的概念
  *      不可以增加产品 ，可以增加产品族
  *   应用场景
  *   JDK中Calendar的getinstance 方法
