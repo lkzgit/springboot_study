@@ -5,6 +5,9 @@ import java.util.List;
 
 /**
  * 有很多时候，观察者需要根据事件的具体情况来进行处理
+ * source 事件源对象 Child
+ * Observer 观察查
+ *
  */
 
 class Child {
