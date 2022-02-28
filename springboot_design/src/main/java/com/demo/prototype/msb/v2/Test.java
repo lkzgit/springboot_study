@@ -12,6 +12,7 @@ public class Test {
 
         System.out.println(p1.loc == p2.loc);
         p1.loc.street = "sh";
+        System.out.println(p1.loc);
         System.out.println(p2.loc);
 
 
