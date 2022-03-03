@@ -43,7 +43,8 @@
         <module>springboot_liqiubase</module>
         <module>spring_rpc</module>
         <module>springboot_encryption</module>
-
+        <module>springboot-qiniuUpload</module>
+        <module>springboot_activiti7</module>
 
 
     </modules>
