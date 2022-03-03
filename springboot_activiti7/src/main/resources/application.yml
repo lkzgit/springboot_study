@@ -1,0 +1,13 @@
+server:
+  port: 8099
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://119.29.120.60:3306/activiti?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC&nullCatalogMeansCurrent=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  activiti:
+    database-schema-update: true
+    db-history-used: true
+    history-level: full
+    check-process-definitions: true
