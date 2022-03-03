@@ -1,16 +1,17 @@
-package com.demo.chainofresponsibility.msb.v3;
+package com.demo.chainofresponsibility.msb.isAction.v4;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author lkz
- * @ClassName: Main
- * @description: TODO
- * 完全模式Serverlet中的FilterChain
- * @date 2022/2/24 16:37
+ * @version 1.0.0
+ * @ClassName Main.java
+ * @Description TODO
+ * @createTime 2022年02月26日 17:13:00
  */
 public class Main {
+
     public static void main(String[] args) {
         Request request = new Request();
         request.str = "大家好:)，<script>，欢迎访问 mashibing.com ，大家都是996 ";
@@ -67,7 +68,7 @@ class FilterChain {
         filters.add(f);
         return this;
     }
-    //在fliterchain中加入位置的人记录 同时在filter中加入第三个参数
+
     public void doFilter(Request request, Response response) {
         if(index == filters.size()) return;
         Filter f = filters.get(index);
