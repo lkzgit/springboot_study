@@ -1,0 +1,25 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://42.192.46.136:1995/flowable_one?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: lkz1234
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
+mybatis-plus:
+  # 多个目录用逗号或者分号分隔（告诉 Mapper 所对应的 XML 文件位置）
+  mapper-locations: classpath*:/mapper/*.xml
+  #端口
+server:
+  port: 8089
+
+flowable:
+#  common:
+#    app:
+#      idm-url: http://10.4.0.74:8080/flowable-idm
+#      idm-admin.user: admin
+#      idm-admin.password: test
+  database-schema-update: true
+  async-executor-activate: false
