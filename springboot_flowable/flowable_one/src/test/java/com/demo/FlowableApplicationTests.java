@@ -1,6 +1,7 @@
 package com.demo;
 
 
+import com.demo.flowable.FlowableOneApplication;
 import com.demo.flowable.entity.DoneEntity;
 import com.demo.flowable.mapper.FlowableMapper;
 import lombok.extern.slf4j.Slf4j;
@@ -14,8 +15,10 @@ import org.flowable.engine.runtime.ProcessInstance;
 import org.flowable.image.ProcessDiagramGenerator;
 import org.flowable.task.api.Task;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletResponse;
@@ -26,9 +29,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@SpringBootTest
+
 @Slf4j
-class FlowableApplicationTests {
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = FlowableOneApplication.class)
+public class FlowableApplicationTests {
     /**
      * 部署
      */
@@ -56,55 +61,61 @@ class FlowableApplicationTests {
     @Autowired
     private HttpServletResponse httpServletResponse;
     
-    @Test
-    void contextLoads() {
-    }
+
     
     /**
      * 部署流程
      */
     @Test
-    void createDeployment() {
+   public void createDeployment() {
         
         DeploymentBuilder deploymentBuilder = repositoryService.createDeployment()
                 .addClasspathResource("bpmn/报销bpmn20.xml").name("OA报销流程");
         Deployment deploy = deploymentBuilder.deploy();
         System.out.println("流程部署成功");
-        System.out.println(deploy.getId());
-        System.out.println(deploy.getName());
-        System.out.println(deploy.getKey());
-        System.out.println(deploy.getParentDeploymentId());
+        System.out.println("部署id："+deploy.getId());
+        System.out.println("部署名称："+deploy.getName());
+        System.out.println("部署key："+deploy.getKey());
+        System.out.println("部署ParentDe："+deploy.getParentDeploymentId());
     }
     
     /**
      * 启动流程
      */
     @Test
-    void statusFlowable() {
-        final String processId = "key-bx";
+    public void statusFlowable() {
+        final String processId = "key-bx"; //流程定义唯一的key
         Map<String, Object> map = new HashMap<>();
-        map.put("hrUserId", "songxy");
+        map.put("hrUserId", "song");
         ProcessInstance processInstance = runtimeService.startProcessInstanceByKey(processId, map);
-        
-        System.out.println(processInstance.getId());
+        /**
+         * 流程实例的id：43777d96-9df7-11ec-841d-f09e4a62ed63
+         * 流程定义的id：key-bx:1:a1c8277a-9df5-11ec-9092-f09e4a62ed63
+         * 流程定义的id：key-bx:1:a1c8277a-9df5-11ec-9092-f09e4a62ed63
+         * 流程定义的定义key：key-bx
+         */
+        System.out.println("流程实例的id："+processInstance.getId());
+        System.out.println("流程定义的id："+processInstance.getProcessDefinitionId());
+        System.out.println("流程定义的定义key："+processInstance.getProcessDefinitionKey());
+        System.out.println("流程实例当前活动节点节点："+processInstance.getActivityId());
     }
     
     /**
      * 查询部署的流程定义
      */
     @Test
-    void findProcessDefinition() {
+    public void findProcessDefinition() {
         //不分页
         List<ProcessDefinition> list = repositoryService
                 .createProcessDefinitionQuery()
-                .processDefinitionKey("key-1")
+                .processDefinitionKey("key-bx")
                 .list();
         list.forEach(processDefinition -> {
             System.out.println(processDefinition);
         });
         System.out.println("_________________");
         //分页
-        List<ProcessDefinition> pages = repositoryService.createProcessDefinitionQuery().processDefinitionKey("key-1")
+        List<ProcessDefinition> pages = repositoryService.createProcessDefinitionQuery().processDefinitionKey("key-bx")
                 .listPage(0, 10);
         pages.forEach(processDefinition -> {
             System.out.println(processDefinition);
@@ -115,15 +126,15 @@ class FlowableApplicationTests {
      * 查询指定流程所有启动的实例列表
      */
     @Test
-    void findExecutions() {
+    public void findExecutions() {
         //不分页
-        List<Execution> executions = runtimeService.createExecutionQuery().processDefinitionKey("key-1").list();
+        List<Execution> executions = runtimeService.createExecutionQuery().processDefinitionKey("key-bx").list();
         executions.forEach(execution -> {
             System.out.println(execution);
         });
         System.out.println("-----------");
         //分页
-        List<Execution> executionPages = runtimeService.createExecutionQuery().processDefinitionKey("key-1")
+        List<Execution> executionPages = runtimeService.createExecutionQuery().processDefinitionKey("key-bx")
                 .listPage(0, 10);
         executionPages.forEach(execution -> {
             System.out.println(execution);
@@ -134,43 +145,88 @@ class FlowableApplicationTests {
      * 查询当用户待办
      */
     @Test
-    void findUserList() {
-        String userId = "songxy";
+    public void findUserList() {
+        String userId = "lisi";
         //不分页
         List<Task> list = taskService.createTaskQuery().taskAssignee(userId).orderByTaskCreateTime().desc().list();
         list.forEach(task -> {
             System.out.println(task);
         });
+        System.out.println("-------用户待办-------");
         //分页
         List<Task> pages = taskService.createTaskQuery().taskAssignee(userId).orderByTaskCreateTime().desc()
                 .listPage(0, 10);
         
+    }
+    @Test
+    public void lookweipai(){
+
+        List<Task>list = taskService.createTaskQuery().taskOwner("zhangsan") //委托人名字
+
+                .orderByTaskCreateTime().desc().list();
+
+        list.forEach(e->{
+            System.out.println("任务id:"+e.getId());
+        });
+
+    }
+    /**
+     * 转办
+     */
+    @Test
+    public void turn(){
+        //        根据key 和负责人来查询任务
+        String taskId="e40af92a-9df7-11ec-a2d7-f09e4a62ed63";
+        String assignee="zhangsan";
+        Task task = taskService.createTaskQuery()
+                .taskId(taskId)
+                .taskAssignee("song")
+                .singleResult();
+        if(task!=null){
+            taskService.setAssignee(taskId,assignee);
+        }
+    }
+    /**
+     * 委托
+     */
+    @Test
+    public void weituo(){
+        //        根据key 和负责人来查询任务
+        String taskId="e40af92a-9df7-11ec-a2d7-f09e4a62ed63";
+        String assignee="lisi";
+        Task task = taskService.createTaskQuery()
+                .taskId(taskId)
+                .taskAssignee("zhangsan")
+                .singleResult();
+        if(task!=null){
+            taskService.delegateTask(taskId, assignee);
+        }
     }
     
     /**
      * 审批任务  通过或者驳回
      */
     @Test
-    void agreeOrRefuse() {
+    public void agreeOrRefuse() {
         Map<String, Object> map = new HashMap<>();
         map.put("financeUserId", "yqmm");
         map.put("money", "100");
         //        map.put("outcome", "驳回");
         //任务id
-        String taskId = "55130c96-8429-11ec-8070-dc41a90b0909";
+        String taskId = "e40af92a-9df7-11ec-a2d7-f09e4a62ed63";
         String userId = "yqmm";
         Task task = taskService.createTaskQuery().taskId(taskId).singleResult();
         //领取任务
-        taskService.claim(task.getId(), userId);
+        taskService.claim(task.getId(), "lisi");
         // 完成
-        taskService.complete(task.getId(),map);
+        taskService.complete(task.getId());
     }
     
     /**
      * 已办列表
      */
     @Test
-    void done() {
+    public void done() {
         String userId = "songxy";
         List<DoneEntity> list = flowableMapper.doneByUserId(userId);
         list.forEach(doneEntity -> {
@@ -184,8 +240,8 @@ class FlowableApplicationTests {
      *
      */
     @Test
-    void genProcessDiagram() throws Exception {
-        String processId = "e16b2b78-8406-11ec-b6f5-dc41a90b0909";
+    public void genProcessDiagram() throws Exception {
+        String processId = "43777d96-9df7-11ec-841d-f09e4a62ed63";
         ProcessInstance pi = runtimeService.createProcessInstanceQuery().processInstanceId(processId).singleResult();
         
         //流程走完的不显示图
@@ -231,7 +287,7 @@ class FlowableApplicationTests {
     }
     
     @Test
-    void reject() {
+    public void reject() {
         runtimeService.createChangeActivityStateBuilder()
                 .processInstanceId("1f4594e9-83f6-11ec-9379-dc41a90b0909")
 //                .moveActivityIdsToSingleActivityId("5ab4100f-83fc-11ec-95f0-dc41a90b0909","333")
