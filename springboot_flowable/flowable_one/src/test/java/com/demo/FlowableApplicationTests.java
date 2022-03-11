@@ -84,16 +84,31 @@ public class FlowableApplicationTests {
      */
     @Test
     public void statusFlowable() {
-        final String processId = "key-bx"; //流程定义唯一的key
+        final String processKeyId = "key-bx"; //流程定义唯一的key
         Map<String, Object> map = new HashMap<>();
         map.put("hrUserId", "song");
-        ProcessInstance processInstance = runtimeService.startProcessInstanceByKey(processId, map);
+        ProcessInstance processInstance = runtimeService.startProcessInstanceByKey(processKeyId, map);
         /**
          * 流程实例的id：43777d96-9df7-11ec-841d-f09e4a62ed63
          * 流程定义的id：key-bx:1:a1c8277a-9df5-11ec-9092-f09e4a62ed63
          * 流程定义的id：key-bx:1:a1c8277a-9df5-11ec-9092-f09e4a62ed63
          * 流程定义的定义key：key-bx
          */
+        System.out.println("流程实例的id："+processInstance.getId());
+        System.out.println("流程定义的id："+processInstance.getProcessDefinitionId());
+        System.out.println("流程定义的定义key："+processInstance.getProcessDefinitionKey());
+        System.out.println("流程实例当前活动节点节点："+processInstance.getActivityId());
+    }
+    /**
+     * 根据流程定义id启动
+     */
+    @Test
+    public void processInstanceId(){
+        ProcessDefinition processDefinition = repositoryService.createProcessDefinitionQuery().processDefinitionKey("key-bx").singleResult();
+        System.out.println("流程定义id:"+processDefinition.getId());
+        Map<String, Object> map = new HashMap<>();
+        map.put("hrUserId", "song");
+        ProcessInstance processInstance = runtimeService.startProcessInstanceById(processDefinition.getId(), map);
         System.out.println("流程实例的id："+processInstance.getId());
         System.out.println("流程定义的id："+processInstance.getProcessDefinitionId());
         System.out.println("流程定义的定义key："+processInstance.getProcessDefinitionKey());
@@ -111,7 +126,10 @@ public class FlowableApplicationTests {
                 .processDefinitionKey("key-bx")
                 .list();
         list.forEach(processDefinition -> {
-            System.out.println(processDefinition);
+
+            System.out.println("流程定义的id:"+processDefinition.getId());
+            System.out.println("流程定义的名字:"+processDefinition.getName());
+            System.out.println("流程定义的key:"+processDefinition.getKey());
         });
         System.out.println("_________________");
         //分页
@@ -128,7 +146,7 @@ public class FlowableApplicationTests {
     @Test
     public void findExecutions() {
         //不分页
-        List<Execution> executions = runtimeService.createExecutionQuery().processDefinitionKey("key-bx").list();
+        List<Execution> executions = runtimeService.createExecutionQuery().list();
         executions.forEach(execution -> {
             System.out.println(execution);
         });

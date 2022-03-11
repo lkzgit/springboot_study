@@ -46,6 +46,12 @@
             </exclusions>
         </dependency>
 
+        <dependency>
+            <groupId>com.github.ulisesbocchio</groupId>
+            <artifactId>jasypt-spring-boot-starter</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+
         <!--flowable工作流依赖-->
         <dependency>
             <groupId>org.flowable</groupId>
