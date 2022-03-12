@@ -21,7 +21,7 @@ flowable:
 #      idm-url: http://10.4.0.74:8080/flowable-idm
 #      idm-admin.user: admin
 #      idm-admin.password: test
-  database-schema-update: false
+  database-schema-update: true
   async-executor-activate: false
 
 #加密密钥
