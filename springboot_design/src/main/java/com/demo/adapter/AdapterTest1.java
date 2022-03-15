@@ -17,6 +17,7 @@ package com.demo.adapter;
  *  1 JDK:
      *  2 java.util.Arrays#asList()
      *  3 java.util.Collections#list()
+ *      字节 字符流都是采用的适配器模式
  *  4 Spring:
      *  5 org.springframework.context.event.GenericApplicationListenerAdapter
  *  对象适配器模式
@@ -40,7 +41,7 @@ class Adaptee{
 interface Target{
     int output5v();
 }
-// Object Adapter
+// Object Adapter 方式一 添加适配对象
 class Adapter implements Target{
 
     private Adaptee adaptee;
@@ -52,7 +53,7 @@ class Adapter implements Target{
     @Override
     public int output5v() {
         int i=adaptee.output220v();
-        //  ......
+        //  原始电压转换
         System.out.println(String.format( "原始电压： %d v  - >  输出电压： %d  v  ",i,5 ));
 
         return 5;

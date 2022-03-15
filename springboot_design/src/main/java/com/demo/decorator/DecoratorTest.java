@@ -8,10 +8,17 @@ package com.demo.decorator;
  * 优点: 1.不改变原有对象的情况下给一个对象扩展功能
  *       2.使用不同的组合可以实现不同的效果
  *       3.符合开闭原则
+ * 装饰（Decorator）模式中的角色：
+ * ● 抽象构件（Component）角色 ：定义一个抽象接口以规范准备接收附加责任的对象。
+ * ● 具体构件（Concrete Component）角色 ：实现抽象构件，通过装饰角色为其添加一些职责。
+ * ● 抽象装饰（Decorator）角色 ： 继承或实现抽象构件，并包含具体构件的实例，可以通过其子类扩展具体构件的功能。
+ * ● 具体装饰（ConcreteDecorator）角色 ：实现抽象装饰的相关方法，并给具体构件对象添加附加的责任。
+ *
  * 经典案例：
  *      1 Servlet Api:
  *      2 javax.servlet.http.HttpServletRequestWrapper
  *      3 javax.servlet.http.HttpServletResponseWrapper
+ *      IO流中使用；BufferedInputStream，BufferedOutputStream，BufferedReader，BufferedWriter。
  *
  */
 public class DecoratorTest {

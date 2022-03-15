@@ -22,7 +22,7 @@ class Adaptee2{
 interface Target2 {
     int output5v();
 }
-
+// 继承方式实现
 class Adpater2 extends Adaptee2 implements Target2{
 
     @Override

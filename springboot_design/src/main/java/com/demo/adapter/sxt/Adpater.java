@@ -18,6 +18,7 @@ public class Adpater implements Target{
 
     @Override
     public void target() {
+        adpatee.test();
         System.out.println("适配器");
     }
 }
